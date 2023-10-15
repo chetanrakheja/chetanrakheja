@@ -15,15 +15,15 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <h1 align="center">Hi 👋, I'm Chetan Rakheja</h1>
-I'm a Experienced ISTQB Certified Software Test Engineer(QA) with 3 Years of experience in both Manual and Automation Testing in the Mobile Finance Domain. Experienced in API Testing, WEB testing, and Mobile App Testing. Experience in automated testing with Selenium Java & Appium Java. I'm passionate about ensuring the quality of software by identifying and preventing bugs and errors.
+I'm an Experienced ISTQB Certified Software Test Engineer(QA) with 4+ Years of experience in both Manual and Automation Testing in the Mobile Finance Domain. Experienced in API Testing, WEB testing, and Mobile App Testing, Backend Testing. Experience in automated testing with Selenium Java, Appium Java, and Pytest using python. I'm passionate about ensuring the quality of software by identifying and preventing bugs and errors.
 
 <h2>🔭 Current Work</h2>
 Currently, I'm working as a software tester. My responsibilities include creating test cases, performing manual and automated testing, and collaborating with developers to ensure that software meets the required standards of quality.
-Also, I am about to complete my Master of computer applications
+
 
 <h2>🌱 Learning and Development</h2>
 I'm constantly learning and improving my skills to stay up-to-date with the latest technologies and trends in software testing. I'm particularly interested in learning more about automation testing frameworks such as Selenium and Appium.
-I am also working on pytest framework for testing backend applications
+I am also working on Pytest framework for testing backend applications
 
 
 <h2>📄 Resume</h2>

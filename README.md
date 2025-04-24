@@ -1,66 +1,189 @@
+# 👋 Hi there, I'm Chetan Rakheja
+
+📍 New Delhi, India  
+📧 [rakhejachetan@gmail.com](mailto:rakhejachetan@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/chetanrakheja/) • [GitHub](https://github.com/chetanrakheja) • 🌐 [PayViaUPI.com](https://payviaupi.com/)
+
+---
+
+## 👨‍💻 About Me
+
+I'm an **ISTQB Certified Software Test Engineer** with over **5.6 years of experience** in the **mobile finance domain**. I specialize in both manual and automated testing for web and mobile applications. My expertise lies in enhancing product quality and optimizing testing processes through innovative automation solutions.
+
+---
+
+## 🛠️ Skills
+
+**Languages & Frameworks:**  
+`Python`, `Java`, `JavaScript`, `TypeScript`, `Pytest`, `Selenium`, `Appium`
+
+**Tools & Platforms:**  
+`Postman`, `JMeter`, `Git`, `GitLab CI`, `Jenkins`, `Docker`, `Bash`, `Maven`, `Linux`
+
+**Testing Expertise:**  
+`API Testing`, `Web Testing`, `Mobile App Testing`, `Backend Validation`, `Performance Testing`
+
+**Databases:**  
+`Oracle SQL`, `MongoDB`, `MySQL`
+
+**Cloud & DevOps:**  
+`Docker`, `CI/CD Pipelines`, `AWS (basic exposure)`
+
+**Methodologies:**  
+`Agile, Scrum`, `Data-driven Testing`
+
+---
+
+## 💼 Experience
+
+### 🔶 Orange Business Services | Sep 2022 – Present
+**System Software Engineer**
+
+- Developed automated test frameworks using **Pytest** and **Selenium**, reducing testing time by 70%.
+- Integrated tests into **GitLab CI**, accelerating release cycles.
+- Created tools to parse emails and auto-generate reports, saving 30+ minutes daily.
+- Conducted performance testing using **JMeter** to detect race conditions.
+- Mentored junior QA engineers and introduced API automation best practices.
+
+### 🔷 Comviva Technologies (Tech-M) | Sep 2019 – Sep 2022
+**Automation Test Engineer**
+
+- Automated 195+ mobile test cases using **Appium + Java**, halving manual effort.
+- Identified and resolved over 490 defects in mobile apps.
+- Deployed release patches on Linux servers and ensured backend data integrity.
+
+---
+
+## 🎓 Education
+
+- **MCA** – IGNOU (2019–2023) – 66.32%  
+- **BCA** – JIMS, Vasant Kunj, New Delhi (2016–2019) – 85%
+
+---
+
+## 🏅 Achievements & Certifications
+
+- Selected for an **overseas client-site** testing role.
+- Multiple awards for **on-time delivery** and **quality testing**.
+- **ISTQB Certified** – Foundation Level (07/2019) – Cert No. 0098582
+
+---
+
+## 💡 Projects
+
+- **Save Screenshots to Document & Folder**  
+  A utility script that helped many teammates reduce testing time.
+
+- **[PayViaUPI.com](https://payviaupi.com/)**  
+  A **Next.js-based website** that generates QR codes and links for UPI payments.
+
+- **[GuiDictionary](https://github.com/chetanrakheja/GuiDictionary)**  
+  A GUI-based dictionary app built in Python with web scraping and audio.
+
+---
+
+## 📚 Currently Learning
 
 
-<!--
-**chetanrakheja/chetanrakheja** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+1.  ### 🤖 Generative AI (GenAI)
+    **Learning Path:** [GENAI Cohort](https://courses.chaicode.com/learn/fast-checkout/227321?priceId=0&code=CHETAN37807&is_affiliate=true&tc=CHETAN37807)
 
-Here are some ideas to get you started:
+    <details>
+    <summary>🧠 Tech Stack</summary>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-<h1 align="center">Hi 👋, I'm Chetan Rakheja</h1>
-I'm an Experienced ISTQB Certified Software Test Engineer(QA) with 4+ Years of experience in both Manual and Automation Testing in the Mobile Finance Domain. Experienced in API Testing, WEB testing, and Mobile App Testing, Backend Testing. Experience in automated testing with Selenium Java, Appium Java, and Pytest using python. I'm passionate about ensuring the quality of software by identifying and preventing bugs and errors.
+    - [x] Python
+    - [ ] GPT-4, Claude, Gemini, DeepSeek, Llama-3, Gemma
+    - [ ] LangChain, LangGraph, Hugging Face Transformers
+    - [ ] Qdrant, Pinecone, PG Vector, Neo4j
+    - [ ] AWS, Docker, Langsmit, Langfuse
+     </details>
 
-<h2>🔭 Current Work</h2>
-Currently, I'm working as a software tester. My responsibilities include creating test cases, performing manual and automated testing, and collaborating with developers to ensure that software meets the required standards of quality.
+    <details>
+    <summary>📖 Topics:</summary>
+    
+    - [ ] LLMs & GenAI Fundamentals
+    - [ ] Prompt Engineering & LangChain
+    - [ ] Vector Stores & Context-Aware Chat
+    - [ ] RAG Applications
+    - [ ] Memory-Aware Agents (Neo4j + Qdrant)
+    - [ ] Multi-Modal LLMs (Text + Image)
+    - [ ] Security Guardrails (PII, Filtering, Bias)
+    - [ ] AI Agent Orchestration with LangGraph
+    - [ ] Checkpointing, Human-in-the-Loop, Tool Binding
+    - [ ] LLM as Judge, Cypher Querying, Fine-Tuning
 
+    </details>
 
-<h2>🌱 Learning and Development</h2>
-I'm constantly learning and improving my skills to stay up-to-date with the latest technologies and trends in software testing. I'm particularly interested in learning more about automation testing frameworks such as Selenium and Appium.
-I am also working on Pytest framework for testing backend applications
+    <details>
+    <summary>🎯 Goals & Projects</summary>
 
+    **Projects:**
+    - [ ] AI Legal Document Assistant
+    - [ ] AI Chart Builder (Postgres)
+    - [ ] Resume Roasting Tool
+    - [ ] Candidate Search Agent
+    - [ ] AI Website Chatbot
 
-<h2>📄 Resume</h2>
-You can view my resume <a href="chetanrakheja.com/cv" target="_blank">here</a></li>.
+    **Goals:**
+    - [ ] Build & Deploy AI Apps
+    - [ ] Master LangChain & LangGraph
+    - [ ] Use Guardrails for AI Safety
+    - [ ] Deploy AI on AWS
 
-<h2>📫 Contact Me</h2>
-If you'd like to get in touch with me, feel free to reach out via 
-<ul>
-<li><a href="https://www.linkedin.com/in/chetanrakheja/" target="_blank">LinkedIn</a></li>
-<li><a href="mailto:chetanrakheja@gmail.com" target="_blank">chetanrakheja@gmail.com</a></li>
-<li><a href="mailto:rakhejachetan@gmail.com" target="_blank">rakhejachetan@gmail.com</a></li>
-</ul>
-
-<h2>⚡ Fun fact</h2>
-When I'm not testing software, you can find me exploring new technologies or automating the boring stuff.
-
-<h2>Skills</h2>
-<p><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg" alt="java" width="40" height="40"/>
-<img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original-wordmark.svg" alt="jira" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original-wordmark.svg" alt="maven" width="40" height="40"/>
-<img src="https://avatars.githubusercontent.com/u/7658037?s=200&v=4" alt="swagger" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="python" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/>
+    </details>
 
 
-</p>
+2. ### 🌐 Web Development  
+    **Learning Path:** [Web Dev Cohort](https://courses.chaicode.com/learn/fast-checkout/214297?priceId=0&code=CHETAN37807&is_affiliate=true&tc=CHETAN37807)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=chetanrakheja&row=1&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
+    <details>
+    <summary>🧠 Stack & Projects</summary>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=chetanrakheja&show_icons=true&locale=en&layout=compact" alt="chetanrakheja" /></p>
+    **Stack:**
+    - HTML, CSS, Tailwind CSS  
+    - React.js, Next.js, Express.js, Node.js  
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=chetanrakheja&show_icons=true&locale=en" alt="chetanrakheja" /></p>
+    **Projects:**
+    - Building responsive apps  
+    - Enhancing [PayViaUPI.com](https://payviaupi.com/)
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=chetanrakheja&" alt="chetanrakheja" /></p>
+    </details>
 
+
+3. ### ⚙️ DevOps  
+    **Learning Path:** [DevOps Cohort](https://courses.chaicode.com/learn/fast-checkout/227963?priceId=0&code=CHETAN37807&is_affiliate=true&tc=CHETAN37807)
+
+    <details>
+    <summary>📦 Modules Checklist</summary>
+
+    - **Linux Foundations**
+        - [x] Module 1: Linux Intro & Setup  
+        - [x] Module 2: Essential Commands  
+        - [ ] Module 3: Networking Basics  
+        - [ ] Module 4: Users & Permissions  
+        - [ ] Module 5: Process & Logs  
+        - [ ] Module 6: Shell Scripting  
+
+    - **Docker & Containers**
+        - [ ] Module 7: Containers & Docker  
+        - [ ] Module 8: Docker Essentials  
+        - [ ] Module 9: Docker Networking  
+        - [ ] Module 10: Docker Compose  
+
+    - **CI/CD & Production**
+        - [ ] Module 11: GitHub Actions + CI/CD  
+        - [ ] Module 12: Monitoring & Post-Prod  
+
+    </details>
+
+---
+
+
+## 📊 GitHub Stats
+
+![Chetan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=chetanrakheja&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=chetanrakheja&layout=compact&theme=radical)
+
+---
+
+Thanks for visiting! Let’s connect and build something awesome together. 🚀

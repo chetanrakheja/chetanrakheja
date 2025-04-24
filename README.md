@@ -14,22 +14,22 @@ I'm an **ISTQB Certified Software Test Engineer** with over **5.6 years of exper
 
 ## 🛠️ Skills
 
-**Languages & Frameworks:**  
+#### Languages & Frameworks:
 `Python`, `Java`, `JavaScript`, `TypeScript`, `Pytest`, `Selenium`, `Appium`
 
-**Tools & Platforms:**  
+#### Tools & Platforms:
 `Postman`, `JMeter`, `Git`, `GitLab CI`, `Jenkins`, `Docker`, `Bash`, `Maven`, `Linux`
 
-**Testing Expertise:**  
+#### Testing Expertise: 
 `API Testing`, `Web Testing`, `Mobile App Testing`, `Backend Validation`, `Performance Testing`
 
-**Databases:**  
+#### Databases:
 `Oracle SQL`, `MongoDB`, `MySQL`
 
-**Cloud & DevOps:**  
+#### Cloud & DevOps: 
 `Docker`, `CI/CD Pipelines`, `AWS (basic exposure)`
 
-**Methodologies:**  
+#### Methodologies:  
 `Agile, Scrum`, `Data-driven Testing`
 
 ---
@@ -45,12 +45,36 @@ I'm an **ISTQB Certified Software Test Engineer** with over **5.6 years of exper
 - Conducted performance testing using **JMeter** to detect race conditions.
 - Mentored junior QA engineers and introduced API automation best practices.
 
-### 🔷 Comviva Technologies (Tech-M) | Sep 2019 – Sep 2022
-**Automation Test Engineer**
 
-- Automated 195+ mobile test cases using **Appium + Java**, halving manual effort.
-- Identified and resolved over 490 defects in mobile apps.
-- Deployed release patches on Linux servers and ensured backend data integrity.
+
+### 🔷 Comviva Technologies (Tech-M) | Sep 2019 – Sep 2022  
+**Trainee → Associate → Lead Associate → Software Development Engineer in Test (SDET)**  
+📍 Gurugram, Haryana, India
+
+- **SDET (Oct 2021 – Sep 2022)**  
+  - Led testing efforts for FinTech projects including **onsite testing at Qatar National Bank (QNB)**.
+  - Automated Android workflows using **Appium, Java, Selenium**, improving reliability and efficiency.
+  - Managed a small QA team using **ALM** and **JIRA**; ensured timely delivery with daily status reports.
+  - Executed **end-to-end API testing**, **regression**, and **post-production validations**.
+  - Implemented **bulk API load testing** and **API chaining** using **JMeter** for performance evaluation.
+
+- **Lead Associate (Apr 2021 – Oct 2021)**  
+  - Built a **Page Object Model (POM)** based automation framework in Selenium with Java.
+  - Authored and executed robust test cases using **Selenium WebDriver + TestNG**.
+  - Conducted **regression** and **API testing**, validated backend integrity via SQL.
+  - Delivered multiple projects under tight deadlines with high client satisfaction.
+
+- **Associate (Sep 2019 – Apr 2021)**  
+  - Owned QA for multiple releases: **Test prep, execution, defect logging, and reporting**.
+  - Migrated manual test cases into robust **automation scripts** for smoke and regression testing.
+  - Validated backend through complex **SQL queries**, and maintained test strategy documents.
+  - Applied positive/negative test flows to align validation with business logic.
+
+- **Trainee (Jul 2019 – Sep 2019)**  
+  - Received formal training in **Selenium with Java and POM**.
+  - Executed regression and functional test cases, logged issues using defect tracking tools.
+  - Contributed to exploratory and sanity testing in early project phases.
+
 
 ---
 

@@ -33,7 +33,7 @@ I'm an **ISTQB Certified Software Test Engineer** with over **5.6 years of exper
 `Docker`, `CI/CD Pipelines`, `AWS (basic exposure)`
 
 #### Methodologies:  
-`Agile, Scrum`, `Data-driven Testing`
+`Agile`, `Scrum`, `Data-driven Testing`
 
 ---
 

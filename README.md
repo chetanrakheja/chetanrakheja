@@ -1,8 +1,11 @@
 # 👋 Hi there, I'm Chetan Rakheja
 
 📍 New Delhi, India  
-📧 [rakhejachetan@gmail.com](mailto:rakhejachetan@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/chetanrakheja/) • [GitHub](https://github.com/chetanrakheja) • 🌐 [PayViaUPI.com](https://payviaupi.com/)
+- 📧 [rakhejachetan@gmail.com](mailto:rakhejachetan@gmail.com)  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/chetanrakheja/) 
+- [GitHub](https://github.com/chetanrakheja) 
+- 🌐 [PayViaUPI.com](https://payviaupi.com/)
+- 📑 [My Latest CV](https://chetanrakheja.com/cv)
 
 ---
 

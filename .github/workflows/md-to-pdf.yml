@@ -43,7 +43,7 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./             
-        server-dir: ./  
+        server-dir: ../  
         include: |
           ChetanRakheja_CV.pdf
         exclude: |

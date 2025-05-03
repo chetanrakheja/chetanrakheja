@@ -27,11 +27,11 @@ jobs:
       run: |
         md-to-pdf ChetanRakheja_CV.md --launch-options='{"args": ["--no-sandbox"]}'
 
-
     - name: Commit and push PDF
       run: |
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
+        git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/chetanrakheja/chetanrakheja.git
         git add ChetanRakheja_CV.pdf
         git commit -m "Auto-update ChetanRakheja_CV.pdf after changes to CV.md" || echo "No changes to commit"
         git push

@@ -42,8 +42,8 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./               # Directory containing the PDF
-        server-dir: ./  # Change this to the target FTP path
+        local-dir: ./             
+        server-dir: ./  
         include: |
           ChetanRakheja_CV.pdf
         exclude: |
@@ -52,4 +52,7 @@ jobs:
           **.gitignore
           **.css
           **.md
+          **.DS_Store
+          **.json
+          **.yml
         

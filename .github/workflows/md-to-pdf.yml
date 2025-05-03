@@ -24,7 +24,8 @@ jobs:
 
     - name: Generate PDF from Markdown
       run: |
-        md-to-pdf ChetanRakheja_CV.md --launch-options="--no-sandbox"
+        md-to-pdf ChetanRakheja_CV.md --launch-options='{"args": ["--no-sandbox"]}'
+
 
     - name: Commit and push PDF
       run: |

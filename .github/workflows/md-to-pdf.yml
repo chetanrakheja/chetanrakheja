@@ -5,6 +5,7 @@ on:
     paths:
       - 'ChetanRakheja_CV.md'          # Trigger only when cv.md is changed
       - 'style.css'      # Optional: include style.css if relevant
+      - '.github/workflows/md-to-pdf.yml' # Trigger if the workflow file itself is changed
 
 jobs:
   generate-pdf:

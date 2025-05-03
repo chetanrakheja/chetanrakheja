@@ -35,3 +35,14 @@ jobs:
         git add ChetanRakheja_CV.pdf
         git commit -m "Auto-update ChetanRakheja_CV.pdf after changes to CV.md" || echo "No changes to commit"
         git push
+
+    - name: Upload PDF to FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./               # Directory containing the PDF
+        server-dir: /public_html/   # Change this to the target FTP path
+        include: |
+          ChetanRakheja_CV.pdf

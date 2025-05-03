@@ -106,4 +106,3 @@ I'm a test engineer with over 5 years of experience. I create automated test sys
 ## Education
 - **MCA – IGNOU (2019–2023)**: 66.32%  
 - **BCA – JIMS, New Delhi (2016–2019)**: 85%
----

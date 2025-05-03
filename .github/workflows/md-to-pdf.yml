@@ -1,0 +1,35 @@
+name: Convert Markdown to PDF using md-to-pdf
+
+on:
+  push:
+    paths:
+      - 'ChetanRakheja_CV.md'          # Trigger only when cv.md is changed
+      - 'style.css'      # Optional: include style.css if relevant
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Install md-to-pdf
+      run: npm install -g md-to-pdf
+
+    - name: Generate PDF from Markdown
+      run: |
+        md-to-pdf ChetanRakheja_CV.md
+
+    - name: Commit and push PDF
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+        git add ChetanRakheja_CV.pdf
+        git commit -m "Auto-update ChetanRakheja_CV.pdf after changes to CV.md" || echo "No changes to commit"
+        git push

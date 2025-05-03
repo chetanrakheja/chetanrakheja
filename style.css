@@ -1,0 +1,40 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+@page {
+    margin: 10mm;
+}
+
+h1{
+    color: #0f4761;
+    text-align: center;
+}
+
+/* p:first-of-type {
+    text-align: center;
+} */
+
+.page-break {
+    page-break-before: always;
+}
+
+h2,h3{
+    color: #0f4760;
+}
+
+
+h2,h3,strong,p {
+    margin: 0px;
+}
+
+p {
+    font-size: 12px;
+}
+
+
+

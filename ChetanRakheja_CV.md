@@ -74,7 +74,6 @@ I'm a test engineer with over 5 years of experience. I create automated test sys
 - Participated in defect triage meetings and QA process improvements.
 
 ---
-<div class="page-break"></div>
 
 ## Projects
 ### Save Screenshots to a Document and a Folder  

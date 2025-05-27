@@ -40,6 +40,7 @@ I'm a test engineer with over 5 years of experience. I create automated test sys
 - **Databases:** Oracle SQL, MongoDB, MySQL  
 - **Platforms & Methodologies:** Linux, Agile, Scrum, ISTQB Foundation  
 - **Cloud & Infrastructure:** Docker-based environments, AWS (basic exposure), CI/CD Pipelines  
+- **Monitoring & Messaging:** Kafka (event flow validation), Prometheus (metrics validation), Grafana (dashboard-based monitoring for QA insights)
 
 ---
 

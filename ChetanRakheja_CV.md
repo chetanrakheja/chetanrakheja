@@ -35,12 +35,14 @@ I'm a test engineer with over 5 years of experience. I create automated test sys
 ## Technical Skills
 
 - **Languages & Frameworks:** Python, Java, JavaScript, TypeScript, Pytest, Unittest, Selenium, Appium  
-- **Automation & Tools:** Postman, JMeter, Git, GitLab CI, Jenkins, Docker, Bash, Maven  
+- **Automation & Tools:** Postman, JMeter, Git, GitLab CI, Jenkins, Docker, Bash, Maven, Swagger  
 - **Testing Areas:** API Testing, Web Testing, Mobile App Testing, Backend Validation, Data-driven Testing, Performance Testing  
 - **Databases:** Oracle SQL, MongoDB, MySQL  
 - **Platforms & Methodologies:** Linux, Agile, Scrum, ISTQB Foundation  
-- **Cloud & Infrastructure:** Docker-based environments, AWS (basic exposure), CI/CD Pipelines  
-- **Monitoring & Messaging:** Kafka (event flow validation), Prometheus (metrics validation), Grafana (dashboard-based monitoring for QA insights)
+- **Cloud & Infrastructure:** Docker-based environments, AWS (basic exposure), CI/CD Pipelines, OpenShift (oc/kubectl), KaaS (Kubernetes-as-a-Service)  
+- **Monitoring & Messaging:** Kafka (event flow validation), Prometheus (metrics validation), Grafana (dashboard-based monitoring for QA insights), Kibana (log monitoring and analysis)  
+- **Data Streaming & Integration:** Striim (real-time data ingestion and transformation)  
+- **Project & Documentation Tools:** Jira, Confluence  
 
 ---
 

@@ -5,7 +5,7 @@
 - 🔗 [LinkedIn](https://www.linkedin.com/in/chetanrakheja/)  
 - 🐙 [GitHub](https://github.com/chetanrakheja)  
 - 🌐 [PayViaUPI.com](https://payviaupi.com/)  
-- 📑 [My Latest CV](https://chetanrakheja.com/cv)
+- 📑 [My Latest CV](https://chetanrakheja.com/gitcv)
 
 ---
 

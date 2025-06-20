@@ -14,38 +14,27 @@
 I'm an **ISTQB Certified Software Test Engineer** with over **5.6 years of experience** in the **mobile finance domain**. I specialize in both manual and automated testing for web and mobile applications. My expertise lies in enhancing product quality and optimizing testing processes through innovative automation solutions.
 
 ---
-Here is the converted content in your requested format:
 
----
 
 ## 🛠️ Skills
 
-#### Languages & Frameworks:
-`Python`, `Java`, `JavaScript`, `TypeScript`, `Pytest`, `Unittest`, `Selenium`, `Appium`
+**Languages & Frameworks:** `Python`, `Java`, `JavaScript`, `TypeScript`, `Pytest`, `Unittest`, `Selenium`, `Appium`
 
-#### Tools & Platforms:
-`Postman`, `JMeter`, `Git`, `GitLab CI`, `Jenkins`, `Docker`, `Bash`, `Maven`, `Swagger`, `Linux`
+**Tools & Platforms:** `Postman`, `JMeter`, `Git`, `GitLab CI`, `Jenkins`, `Docker`, `Bash`, `Maven`, `Swagger`, `Linux`
 
-#### Testing Expertise:
-`API Testing`, `Web Testing`, `Mobile App Testing`, `Backend Validation`, `Data-driven Testing`, `Performance Testing`
+**Testing Expertise:** `API Testing`, `Web Testing`, `Mobile App Testing`, `Backend Validation`, `Data-driven Testing`, `Performance Testing`
 
-#### Databases:
-`Oracle SQL`, `MongoDB`, `MySQL`
+**Databases:** `Oracle SQL`, `MongoDB`, `MySQL`
 
-#### Cloud & DevOps:
-`Docker-based environments`, `CI/CD Pipelines`, `AWS (basic exposure)`, `OpenShift (oc/kubectl)`, `KaaS (Kubernetes-as-a-Service)`
+**Cloud & DevOps:** `Docker-based environments`, `CI/CD Pipelines`, `AWS (basic exposure)`, `OpenShift (oc/kubectl)`, `KaaS (Kubernetes-as-a-Service)`
 
-#### Monitoring & Messaging:
-`Kafka`, `Prometheus`, `Grafana`, `Kibana`
+**Monitoring & Messaging:** `Kafka`, `Prometheus`, `Grafana`, `Kibana`
 
-#### Data Streaming & Integration:
-`Striim`
+**Data Streaming & Integration:** `Striim`
 
-#### Methodologies:
-`Agile`, `Scrum`, `ISTQB Foundation`
+**Methodologies:** `Agile`, `Scrum`, `ISTQB Foundation`
 
-#### Project & Documentation Tools:
-`Jira`, `Confluence`
+**Project & Documentation Tools:** `Jira`, `Confluence`
 
 ---
 

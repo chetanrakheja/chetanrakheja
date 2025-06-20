@@ -14,26 +14,38 @@
 I'm an **ISTQB Certified Software Test Engineer** with over **5.6 years of experience** in the **mobile finance domain**. I specialize in both manual and automated testing for web and mobile applications. My expertise lies in enhancing product quality and optimizing testing processes through innovative automation solutions.
 
 ---
+Here is the converted content in your requested format:
+
+---
 
 ## 🛠️ Skills
 
 #### Languages & Frameworks:
-`Python`, `Java`, `JavaScript`, `TypeScript`, `Pytest`, `Selenium`, `Appium`
+`Python`, `Java`, `JavaScript`, `TypeScript`, `Pytest`, `Unittest`, `Selenium`, `Appium`
 
 #### Tools & Platforms:
-`Postman`, `JMeter`, `Git`, `GitLab CI`, `Jenkins`, `Docker`, `Bash`, `Maven`, `Linux`
+`Postman`, `JMeter`, `Git`, `GitLab CI`, `Jenkins`, `Docker`, `Bash`, `Maven`, `Swagger`, `Linux`
 
-#### Testing Expertise: 
-`API Testing`, `Web Testing`, `Mobile App Testing`, `Backend Validation`, `Performance Testing`
+#### Testing Expertise:
+`API Testing`, `Web Testing`, `Mobile App Testing`, `Backend Validation`, `Data-driven Testing`, `Performance Testing`
 
 #### Databases:
 `Oracle SQL`, `MongoDB`, `MySQL`
 
-#### Cloud & DevOps: 
-`Docker`, `CI/CD Pipelines`, `AWS (basic exposure)`
+#### Cloud & DevOps:
+`Docker-based environments`, `CI/CD Pipelines`, `AWS (basic exposure)`, `OpenShift (oc/kubectl)`, `KaaS (Kubernetes-as-a-Service)`
 
-#### Methodologies:  
-`Agile`, `Scrum`, `Data-driven Testing`
+#### Monitoring & Messaging:
+`Kafka`, `Prometheus`, `Grafana`, `Kibana`
+
+#### Data Streaming & Integration:
+`Striim`
+
+#### Methodologies:
+`Agile`, `Scrum`, `ISTQB Foundation`
+
+#### Project & Documentation Tools:
+`Jira`, `Confluence`
 
 ---
 

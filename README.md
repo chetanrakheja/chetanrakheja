@@ -26,7 +26,7 @@ I'm an **ISTQB Certified Software Test Engineer** with over **5.6 years of exper
 
 **Databases:** `Oracle SQL`, `MongoDB`, `MySQL`
 
-**Cloud & DevOps:** `Docker-based environments`, `CI/CD Pipelines`, `AWS (basic exposure)`, `OpenShift (oc/kubectl)`, `KaaS (Kubernetes-as-a-Service)`
+**Cloud & DevOps:** `Jenkins`, `Docker-based environments`, `CI/CD Pipelines`, `AWS (basic exposure)`, `OpenShift (oc/kubectl)`, `KaaS (Kubernetes-as-a-Service)`
 
 **Monitoring & Messaging:** `Kafka`, `Prometheus`, `Grafana`, `Kibana`
 

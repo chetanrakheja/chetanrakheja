@@ -120,25 +120,25 @@ I'm an **ISTQB Certified Software Test Engineer** with over **5.10 years of expe
     <summary>🧠 Tech Stack</summary>
 
     - [x] Python
-    - [ ] GPT-4, Claude, Gemini, DeepSeek, Llama-3, Gemma
-    - [ ] LangChain, LangGraph, Hugging Face Transformers
-    - [ ] Qdrant, Pinecone, PG Vector, Neo4j
-    - [ ] AWS, Docker, Langsmit, Langfuse
+    - [X] GPT-4, Claude, Gemini, DeepSeek, Llama-3, Gemma
+    - [X] LangChain, LangGraph, Hugging Face Transformers
+    - [X] Qdrant, Pinecone, PG Vector, Neo4j
+    - [X] AWS, Docker, Langsmit, Langfuse
      </details>
 
     <details>
     <summary>📖 Topics:</summary>
     
-    - [ ] LLMs & GenAI Fundamentals
-    - [ ] Prompt Engineering & LangChain
-    - [ ] Vector Stores & Context-Aware Chat
-    - [ ] RAG Applications
-    - [ ] Memory-Aware Agents (Neo4j + Qdrant)
-    - [ ] Multi-Modal LLMs (Text + Image)
-    - [ ] Security Guardrails (PII, Filtering, Bias)
-    - [ ] AI Agent Orchestration with LangGraph
-    - [ ] Checkpointing, Human-in-the-Loop, Tool Binding
-    - [ ] LLM as Judge, Cypher Querying, Fine-Tuning
+    - [X] LLMs & GenAI Fundamentals
+    - [X] Prompt Engineering & LangChain
+    - [X] Vector Stores & Context-Aware Chat
+    - [X] RAG Applications
+    - [X] Memory-Aware Agents (Neo4j + Qdrant)
+    - [X] Multi-Modal LLMs (Text + Image)
+    - [X] Security Guardrails (PII, Filtering, Bias)
+    - [X] AI Agent Orchestration with LangGraph
+    - [X] Checkpointing, Human-in-the-Loop, Tool Binding
+    - [X] LLM as Judge, Cypher Querying, Fine-Tuning
 
     </details>
 
@@ -187,15 +187,15 @@ I'm an **ISTQB Certified Software Test Engineer** with over **5.10 years of expe
     - **Linux Foundations**
         - [x] Module 1: Linux Intro & Setup  
         - [x] Module 2: Essential Commands  
-        - [ ] Module 3: Networking Basics  
-        - [ ] Module 4: Users & Permissions  
-        - [ ] Module 5: Process & Logs  
-        - [ ] Module 6: Shell Scripting  
+        - [X] Module 3: Networking Basics  
+        - [X] Module 4: Users & Permissions  
+        - [X] Module 5: Process & Logs  
+        - [X] Module 6: Shell Scripting  
 
     - **Docker & Containers**
-        - [ ] Module 7: Containers & Docker  
-        - [ ] Module 8: Docker Essentials  
-        - [ ] Module 9: Docker Networking  
+        - [X] Module 7: Containers & Docker  
+        - [X] Module 8: Docker Essentials  
+        - [X] Module 9: Docker Networking  
         - [ ] Module 10: Docker Compose  
 
     - **CI/CD & Production**

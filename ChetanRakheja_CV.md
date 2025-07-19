@@ -28,7 +28,7 @@ pdf_options:
 **ISTQB Certified | 5.9+ Years**  
 **Skills:** Python | Selenium | MongoDB | CI/CD | API & Backend Automation
 
-I'm a test engineer with over 5.9 years of experience. I create automated test systems for websites, mobile apps, and backend tools. I help improve software quality, find bugs faster, and make testing quicker. I work well with developers and other teams, and I enjoy teaching junior testers and making sure everything runs smoothly.
+I'm a test engineer with over 5.10 years of experience. I create automated test systems for websites, mobile apps, and backend tools. I help improve software quality, find bugs faster, and make testing quicker. I work well with developers and other teams, and I enjoy teaching junior testers and making sure everything runs smoothly.
 
 ---
 

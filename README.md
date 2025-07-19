@@ -11,7 +11,7 @@
 
 ## 👨‍💻 About Me
 
-I'm an **ISTQB Certified Software Test Engineer** with over **5.6 years of experience** in the **mobile finance domain**. I specialize in both manual and automated testing for web and mobile applications. My expertise lies in enhancing product quality and optimizing testing processes through innovative automation solutions.
+I'm an **ISTQB Certified Software Test Engineer** with over **5.10 years of experience** in the **mobile finance domain**. I specialize in both manual and automated testing for web and mobile applications. My expertise lies in enhancing product quality and optimizing testing processes through innovative automation solutions.
 
 ---
 

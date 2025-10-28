@@ -34,7 +34,7 @@ I'm a test engineer with over 6.2 years of experience. I create automated test s
 
 ## Technical Skills
 
-- **Languages & Frameworks:** Python, Java, JavaScript, TypeScript, Pytest, Unittest, Selenium, Appium  
+- **Languages & Frameworks:** Python, Java, JavaScript, TypeScript, Pytest, Selenium, Appium  
 - **Automation & Tools:** Postman, JMeter, Git, GitLab CI, Jenkins, Docker, Bash, Maven, Swagger  
 - **Testing Areas:** API Testing, Web Testing, Mobile App Testing, Backend Validation, Data-driven Testing, Performance Testing  
 - **Databases:** Oracle SQL, MongoDB, MySQL  

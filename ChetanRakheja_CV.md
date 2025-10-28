@@ -25,10 +25,10 @@ pdf_options:
 
 ## Senior Software Development Engineer in Test
 
-**ISTQB Certified | 5.10+ Years**  
+**ISTQB Certified | 6.2+ Years**  
 **Skills:** Python | Selenium | MongoDB | CI/CD | API & Backend Automation
 
-I'm a test engineer with over 5.10 years of experience. I create automated test systems for websites, mobile apps, and backend tools. I help improve software quality, find bugs faster, and make testing quicker. I work well with developers and other teams, and I enjoy teaching junior testers and making sure everything runs smoothly.
+I'm a test engineer with over 6.2 years of experience. I create automated test systems for websites, mobile apps, and backend tools. I help improve software quality, find bugs faster, and make testing quicker. I work well with developers and other teams, and I enjoy teaching junior testers and making sure everything runs smoothly.
 
 ---
 
@@ -43,13 +43,25 @@ I'm a test engineer with over 5.10 years of experience. I create automated test 
 - **Monitoring & Messaging:** Kafka (event flow validation), Prometheus (metrics validation), Grafana (dashboard-based monitoring for QA insights), Kibana (log monitoring and analysis)  
 - **Data Streaming & Integration:** Striim (real-time data ingestion and transformation)  
 - **Project & Documentation Tools:** Jira, Confluence  
+- **Generative AI :** Prompt Engineering, LLM Integration, Amazon Q, OpenAI
 
 ---
 
 ## Professional Experience
 
+### Iris Software Pvt. Ltd. — Gurugram, India
+**Senior Software Development Engineer in Test (Client: National Australia Bank - NAB) | Jul 2025 – Present**
+
+- Built a contract-testing framework using Avro schemas to validate microservice integrations and ensure backward compatibility.
+- Automated payload generation and schema validation, enabling seamless Kafka event and API contract verification across services.
+- Designed and executed backend test suites in Java (Gradle) and integrated them directly into the development branch for early defect detection.
+- Automated SQL-based backend validations, reducing manual data checks and improving test repeatability across multiple environments.
+- Leveraged AI-assisted code analysis tools to understand existing codebases, identify logic gaps, and expand test coverage with minimal developer dependency.
+- Collaborated closely with developers to write and maintain unit and integration test scripts, strengthening CI/CD reliability and deployment confidence.
+- Improved overall release quality by expanding backend automation coverage and reducing test execution time through optimized pipelines.
+
 ### Orange Business Services – Gurugram, India  
-**System Software Engineer | Sep 2022 – Present**
+**System Software Engineer | Sep 2022 – Jul 2025**
 
 - Architected and maintained automated test frameworks using Pytest and Selenium for API and UI testing.  
 - Owned end-to-end test strategy for backend systems and microservices, including coverage tracking and quality metrics.  

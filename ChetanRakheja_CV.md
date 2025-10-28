@@ -99,7 +99,7 @@ I'm a test engineer with over 6.2 years of experience. I create automated test s
 ---
 
 ## Professional Development
-### Gen AI with Python – *In Progress* (April 2025 – Present)
+### Gen AI with Python – *In Progress* 
 - Practicing prompt engineering: zero-shot, few-shot, and chain-of-thought.  
 - Built a CLI assistant for natural language-based code updates.  
 - Connected LLMs to Python functions for agentic execution using OpenAI tools.  

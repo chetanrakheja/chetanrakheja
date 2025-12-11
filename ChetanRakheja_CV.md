@@ -25,9 +25,9 @@ pdf_options:
 
 ## Senior Software Development Engineer in Test
 
-**ISTQB Certified | 6.2+ Years | QA Automation | SDET |  Distributed Systems Testing**
+**ISTQB Certified | 6.3+ Years | QA Automation | SDET |  Distributed Systems Testing**
 
-I’m a Test Engineer with 6.2+ years of experience building automation frameworks, performance test suites, and backend/API validation systems for enterprise-scale applications. I specialize in Python and Java based automation, JMeter performance testing, and end-to-end quality engineering across microservices and distributed systems.
+I’m a Test Engineer with 6.3+ years of experience building automation frameworks, performance test suites, and backend/API validation systems for enterprise-scale applications. I specialize in Python and Java based automation, JMeter performance testing, and end-to-end quality engineering across microservices and distributed systems.
 
 I work closely with developers, architects, and business teams to improve application stability, scalability, and reliability, while mentoring junior engineers and driving continuous improvement across QA processes.
 

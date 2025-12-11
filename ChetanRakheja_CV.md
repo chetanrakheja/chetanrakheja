@@ -5,7 +5,7 @@ stylesheet:
 body_class: markdown-body
 pdf_options:
   format: A4
-  margin: 9.5mm
+  margin: 10mm
   printBackground: true
 ---
 

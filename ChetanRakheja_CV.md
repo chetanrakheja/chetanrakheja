@@ -12,11 +12,15 @@ pdf_options:
 
 # Chetan Rakheja
 
+<!-- rakhejachetan@gmail.com | +91 99104 54745 | New Delhi, India  | [LinkedIn](https://www.linkedin.com/in/chetanrakheja/) | [GitHub](https://github.com/chetanrakheja) -->
+
 **Email:** rakhejachetan@gmail.com  
 **Phone:** +91 99104 54745  
 **Location:** New Delhi, India  
 **LinkedIn:** https://www.linkedin.com/in/chetanrakheja/
+
 **Github:** https://github.com/chetanrakheja
+
 ---
 
 ## Senior Software Development Engineer in Test

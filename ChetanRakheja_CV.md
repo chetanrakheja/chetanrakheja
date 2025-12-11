@@ -5,7 +5,7 @@ stylesheet:
 body_class: markdown-body
 pdf_options:
   format: A4
-  margin: 10mm
+  margin: 9mm
   printBackground: true
 ---
 
@@ -41,7 +41,7 @@ I work closely with developers, architects, and business teams to improve applic
 - **Databases:** Oracle SQL, MongoDB, MySQL  
 - **Platforms & Methodologies:** Linux, Agile, Scrum, ISTQB Foundation  
 - **Cloud & Infrastructure:** Jenkins, Docker-based environments, AWS (basic exposure), CI/CD Pipelines, OpenShift (oc/kubectl), KaaS (Kubernetes-as-a-Service)  
-- **Monitoring & Messaging:** Kafka (event flow validation), Prometheus (metrics validation), Grafana (dashboard-based monitoring for QA insights), Kibana (log monitoring and analysis)  
+- **Monitoring & Messaging:** Kafka, Prometheus, Grafana, Kibana 
 - **Data Streaming & Integration:** Striim (real-time data ingestion and transformation)  
 - **Project & Documentation Tools:** Jira, Confluence  
 - **Generative AI:** Prompt Engineering, LLM Integration, Amazon Q, OpenAI, Cursor
@@ -53,30 +53,25 @@ I work closely with developers, architects, and business teams to improve applic
 ### Iris Software Pvt. Ltd. — Gurugram, India
 Senior Software Development Engineer in Test (Client: **National Australia Bank - NAB**) | Jul 2025 – Present
 
-- Built a contract-testing framework using Avro schemas to validate microservice integrations and ensure backward compatibility across distributed systems.  
-- Automated payload generation, schema validation, and Kafka event verification, reducing integration failures and improving upstream/downstream consistency.  
-- Designed and executed backend automation test suites in Java (Gradle), integrated directly into CI pipelines for early detection of defects.  
-- Implemented SQL-driven backend verification workflows, reducing manual validation effort and increasing accuracy across multiple environments.  
-- Leveraged AI-assisted code review tools to understand complex codebases, identify logic gaps, and accelerate creation of high-coverage test suites.  
-- Collaborated with developers on unit and integration testing, improving CI/CD reliability and build health.  
-- Improved release stability by optimizing backend automation pipelines, reducing execution time, and enhancing test parallelism.  
-- Strengthened quality governance by expanding automation coverage and implementing consistent test strategies across squads.
+- Built an Avro-based contract-testing framework validating microservice integrations and backward compatibility.  
+- Automated payload generation and Kafka schema/event verification, cutting integration failures.  
+- Delivered Java (Gradle) backend automation suites wired into CI for early defect detection.  
+- Implemented SQL-driven backend verification to shrink manual validation and boost accuracy.  
+- Optimized pipelines for faster, parallelized automation runs and steadier releases.  
+- Leveraged AI-assisted code review tools to understand complex codebases, identify logic gaps, and accelerate creation of high-coverage test suites.
 
 ---
 
 ### Orange Business Services – Gurugram, India  
 **System Software Engineer | Sep 2022 – Jul 2025**
 
-- Architected and maintained Pytest + Selenium based automation frameworks for API, UI, and backend test coverage.  
-- Led end-to-end test strategy for microservices, ensuring robust test coverage, quality metrics reporting, and defect lifecycle ownership.  
-- Designed comprehensive REST API & backend validation suites using MongoDB and SQL.  
-- Integrated automation frameworks with GitLab CI, enabling rapid feedback cycles and high CI/CD stability.  
-- Partnered with DevOps teams to optimize pipelines, reduce flaky tests, and scale automation jobs across clusters.  
-- Built Python utilities for parsing production data and generating automated Excel reports.  
-- Conducted root cause analysis for regressions, improved test reliability, and introduced systemic QA fixes.  
-- Mentored junior QA engineers and implemented API testing best practices across teams.  
-- Executed JMeter-based performance tests, identifying API bottlenecks, thread contention, and throughput issues.  
-- Participated in design review discussions to promote testability, reliability, and performance considerations early in development.  
+- Led Pytest + Selenium automation for API, UI, and backend coverage, integrated with GitLab CI.  
+- Owned microservice test strategy, coverage, quality metrics, and defect lifecycle.  
+- Built REST API and backend validation suites using MongoDB, SQL, and JMeter for perf checks.  
+- Partnered with DevOps to reduce flaky tests, scale pipelines, and stabilize CI/CD.  
+- Created Python utilities for production data parsing and automated Excel reporting.  
+- Mentored junior QA engineers and rolled out API testing best practices and sprint QA metrics.
+- Executed JMeter-based performance tests, identifying API bottlenecks, thread contention, and throughput issues. 
 - Coordinated nightly validations, UAT cycles, and cross-team release testing with distributed teams.
 
 ---
@@ -84,15 +79,12 @@ Senior Software Development Engineer in Test (Client: **National Australia Bank 
 ### Comviva Technologies (Tech Mahindra Subsidiary) – Gurugram, India  
 **Automation Test Engineer | Sep 2019 – Sep 2022**
 
-- Automated 195+ Appium mobile test cases, reducing manual regression cycle time by more than 50%.  
-- Developed reusable modules for API and mobile automation testing (Java + Appium).  
-- Collaborated with engineering and product teams to resolve 490+ defects across multiple releases.  
-- Performed backend data validations through Oracle SQL to ensure data integrity and business rule compliance.  
-- Managed regression, smoke, and integration suites for financial mobile applications.  
-- Contributed to Agile sprints by refining QA requirements and strengthening sprint-level quality metrics.  
-- Implemented custom scripts and utilities to accelerate test execution and environment readiness.  
-- Participated in defect triage, risk assessment, and continuous QA process enhancements.
-
+- Automated 195+ Appium mobile test cases, reducing manual regression cycle time by more than 50%.   
+- Built reusable Java + Appium modules for API/mobile automation.  
+- Resolved 490+ defects via collaborative triage across multiple releases.  
+- Performed Oracle SQL backend validations to ensure data integrity.  
+- Managed regression, smoke, and integration suites for financial mobile apps.
+- Implemented custom scripts and utilities to accelerate test execution and environment readiness. 
 ---
 
 ## Projects
@@ -108,12 +100,10 @@ Senior Software Development Engineer in Test (Client: **National Australia Bank 
 
 ## Professional Development
 ### Gen AI with Python – *In Progress* 
-- Practicing prompt engineering: zero-shot, few-shot, chain-of-thought, and structured prompting.  
+- Practicing prompt engineering (zero-shot, few-shot, chain-of-thought, structured).  
 - Built a CLI assistant for natural language-driven code modifications.  
-- Integrated LLMs with real Python functions for autonomous task execution.  
-- Developed multi-modal agents (text, image, structured inputs).  
-- Designed RAG pipelines using QDrant and embedding models.  
-- Exploring Knowledge Graphs for reasoning-intensive tasks in generative AI.
+- Integrated LLMs with Python functions for autonomous task execution and multi-modal agents.  
+- Designed RAG pipelines using QDrant and embeddings; exploring knowledge graphs for reasoning-heavy tasks.
 
 ---
 

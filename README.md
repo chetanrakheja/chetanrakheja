@@ -4,14 +4,14 @@
 - 📧 [rakhejachetan@gmail.com](mailto:rakhejachetan@gmail.com)  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/chetanrakheja/)  
 - 🐙 [GitHub](https://github.com/chetanrakheja)  
-- 🌐 [PayViaUPI.com](https://payviaupi.com/)  
+- 🌐 [PayViaUPI.com](https://payviaupi.vercel.app/)  
 - 📑 [My Latest CV](https://chetanrakheja.com/gitcv)
 
 ---
 
 ## 👨‍💻 About Me
 
-I'm an **ISTQB Certified Software Test Engineer** with over **5.10 years of experience** in the **mobile finance domain**. I specialize in both manual and automated testing for web and mobile applications. My expertise lies in enhancing product quality and optimizing testing processes through innovative automation solutions.
+I'm an **ISTQB Certified Software Test Engineer** with over **6.4+ years of experience** in the **mobile finance domain**. I specialize in both manual and automated testing for web and mobile applications. My expertise lies in enhancing product quality and optimizing testing processes through innovative automation solutions.
 
 ---
 
@@ -40,7 +40,17 @@ I'm an **ISTQB Certified Software Test Engineer** with over **5.10 years of expe
 
 ## 💼 Experience
 
-### 🔶 Orange Business Services | Sep 2022 – Present
+### Iris Software Pvt. Ltd. — Gurugram, India
+Senior Software Development Engineer in Test (Client: **National Australia Bank - NAB**) | Jul 2025 – Present
+
+- Built an Avro-based contract-testing framework validating microservice integrations and backward compatibility.  
+- Automated payload generation and Kafka schema/event verification, cutting integration failures.  
+- Delivered Java (Gradle) backend automation suites wired into CI for early defect detection.  
+- Implemented SQL-driven backend verification to shrink manual validation and boost accuracy.  
+- Optimized pipelines for faster, parallelized automation runs and steadier releases.  
+- Leveraged AI-assisted code review tools to understand complex codebases, identify logic gaps, and accelerate creation of high-coverage test suites.
+
+### 🔶 Orange Business Services | Sep 2022 – Jul 2025
 **System Software Engineer**
 
 - Developed automated test frameworks using **Pytest** and **Selenium**, reducing testing time by 70%.
@@ -146,17 +156,17 @@ I'm an **ISTQB Certified Software Test Engineer** with over **5.10 years of expe
     <summary>🎯 Goals & Projects</summary>
 
     **Projects:**
-    - [ ] AI Legal Document Assistant
-    - [ ] AI Chart Builder (Postgres)
-    - [ ] Resume Roasting Tool
-    - [ ] Candidate Search Agent
-    - [ ] AI Website Chatbot
+    - [X] AI Legal Document Assistant
+    - [X] AI Chart Builder (Postgres)
+    - [X] Resume Roasting Tool
+    - [X] Candidate Search Agent
+    - [X] AI Website Chatbot
 
     **Goals:**
-    - [ ] Build & Deploy AI Apps
-    - [ ] Master LangChain & LangGraph
-    - [ ] Use Guardrails for AI Safety
-    - [ ] Deploy AI on AWS
+    - [X] Build & Deploy AI Apps
+    - [X] Master LangChain & LangGraph
+    - [X] Use Guardrails for AI Safety
+    - [X] Deploy AI on AWS
 
     </details>
 
@@ -196,11 +206,11 @@ I'm an **ISTQB Certified Software Test Engineer** with over **5.10 years of expe
         - [X] Module 7: Containers & Docker  
         - [X] Module 8: Docker Essentials  
         - [X] Module 9: Docker Networking  
-        - [ ] Module 10: Docker Compose  
+        - [X] Module 10: Docker Compose  
 
     - **CI/CD & Production**
-        - [ ] Module 11: GitHub Actions + CI/CD  
-        - [ ] Module 12: Monitoring & Post-Prod  
+        - [X] Module 11: GitHub Actions + CI/CD  
+        - [X] Module 12: Monitoring & Post-Prod  
 
     </details>
 

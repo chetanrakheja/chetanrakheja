@@ -3,9 +3,8 @@ name: Convert Markdown to PDF using md-to-pdf
 on:
   push:
     paths:
-      - 'ChetanRakheja_CV.md'          # Trigger only when cv.md is changed
-      - 'style.css'      # Optional: include style.css if relevant
-      - '.github/workflows/md-to-pdf.yml' # Trigger if the workflow file itself is changed
+      - 'ChetanRakheja_CV.md'
+      - 'cv-style.css'
 
 jobs:
   generate-pdf:
@@ -27,12 +26,15 @@ jobs:
       run: |
         md-to-pdf ChetanRakheja_CV.md --launch-options='{"args": ["--no-sandbox"]}'
 
+    - name: Copy PDF to public/
+      run: cp ChetanRakheja_CV.pdf public/ChetanRakheja_CV.pdf
+
     - name: Commit and push PDF
       run: |
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
         git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/chetanrakheja/chetanrakheja.git
-        git add ChetanRakheja_CV.pdf
+        git add ChetanRakheja_CV.pdf public/ChetanRakheja_CV.pdf
         git commit -m "Auto-update ChetanRakheja_CV.pdf after changes to ChetanRakheja_CV.md" || echo "No changes to commit"
         git push
 

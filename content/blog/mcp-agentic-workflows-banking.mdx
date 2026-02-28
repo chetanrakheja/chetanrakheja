@@ -1,0 +1,37 @@
+---
+title: "What I Learned Building MCP Agent Workflows in an Enterprise Banking Environment"
+date: "2026-01-20"
+excerpt: "Integrating LLM agents with MCP-compatible tooling inside a regulated banking environment taught me things no tutorial covers — rate limits, audit trails, and the art of knowing when not to trust the model."
+tags: ["MCP", "AI Engineering", "LLM", "Banking"]
+readTime: "7 min read"
+---
+
+When I started building MCP-compatible tooling for LLM agents at NAB, I expected the hard part to be the AI. It wasn't. The hard part was everything around it — the corporate proxies, the audit requirements, the fact that a model confidently hitting the wrong database table is a compliance incident waiting to happen.
+
+This post is about what I actually learned, not what the docs say.
+
+## The Setup
+
+The goal was to give LLM agents the ability to perform multi-step validation workflows autonomously: hit a REST endpoint, check the database for the expected record, generate a test report artifact. The kind of thing a QA engineer does in a loop, 50 times a day.
+
+We chose MCP (Model Context Protocol) as the tool interface layer because it gave us a clean, structured way to define what the agent could and couldn't do. No raw function calls. No prompt injection through unconstrained tool use.
+
+{/* TODO: write this post — describe the architecture, what MCP tooling looked like, specific challenges in a banking env (PII, audit logs, rate limiting), and key lessons */}
+
+## Key Lessons
+
+### 1. Constrain before you trust
+
+The default instinct is to give the agent as much capability as possible and see what it does. In a regulated environment, that's backwards. Start with the minimum viable tool surface and expand only when you have observed the failure modes.
+
+### 2. Audit trails are a first-class concern
+
+Every tool call the agent makes needs to be logged — not just the input/output, but the full chain of reasoning if you can get it. When something goes wrong (and it will), you need to reconstruct exactly what the agent decided and why.
+
+### 3. Your QA instincts are your superpower
+
+Most AI engineers don't naturally think about edge cases the way QA engineers do. When I looked at each tool definition, I asked: what happens if the API returns a 207? What if the database record exists but with a null field? What if the model misinterprets an ambiguous field name?
+
+These are the questions that prevent production incidents.
+
+{/* TODO: expand with concrete examples and more detailed architecture diagram */}

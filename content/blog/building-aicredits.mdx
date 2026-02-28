@@ -1,0 +1,48 @@
+---
+title: "Building AICredits: A Production LLM API Gateway"
+date: "2025-12-15"
+excerpt: "What it actually takes to build and ship a multi-provider LLM API gateway with credit-based billing — from architecture decisions to the production surprises that don't show up in tutorials."
+tags: ["AI Engineering", "Python", "LLM", "API Gateway", "Building in Public"]
+readTime: "8 min read"
+---
+
+AICredits started as a scratch-my-own-itch project. I was working with multiple LLM providers — OpenAI, Anthropic, and a few others — and I wanted a single interface that handled routing, usage tracking, and cost management without locking me into one provider's SDK.
+
+What started as a weekend project became a production system. Here's what I learned.
+
+## The Core Problem
+
+Every LLM provider has a different API shape, different rate limit behavior, different pricing model, and different failure modes. If you're building something that needs to be provider-agnostic, you either abstract all of this away yourself, or you accept the coupling.
+
+I chose abstraction. Which means I became responsible for it.
+
+## Architecture
+
+At a high level, AICredits is:
+
+1. **A unified API layer** — single endpoint that routes to the right provider based on the model specified in the request
+2. **A credit system** — users top up credits, each API call deducts based on actual token usage at current provider rates
+3. **Usage tracking** — per-user, per-model, per-day breakdowns stored in PostgreSQL
+4. **Rate limiting** — both at the gateway level and passed through to provider-level limits
+
+{/* TODO: write this post — cover the full architecture with diagrams, provider abstraction pattern, credit calculation logic, the billing system design, operational lessons (what broke in production), and what I'd do differently */}
+
+## What Surprised Me in Production
+
+### Provider reliability varies more than you'd expect
+
+I built with the assumption that if a provider's status page said "all systems operational," their API would behave predictably. This is naive. Latency spikes, partial outages, and degraded performance on specific model versions are common enough that you need circuit breakers and fallback routing from day one.
+
+### Billing at token granularity is complex
+
+Tokens aren't a simple unit. Input tokens and output tokens have different costs. Cached tokens are cheaper. Some providers charge for the full context window even if the response is short. Getting this right required reading a lot of documentation carefully and building comprehensive tests against the actual billing behavior.
+
+### PostgreSQL is plenty
+
+I over-engineered the data layer initially, considering event sourcing for the credit ledger. In the end, a well-indexed PostgreSQL table with proper transaction isolation handles everything I need at the current scale. Don't add complexity before you have the problem.
+
+## What I'd Do Differently
+
+Start with the billing system, not the routing layer. The routing is the fun part — provider adapters, model name normalization, response format standardization. But billing is where bugs become financial problems. Design the ledger first, get it right, then build everything else around it.
+
+{/* TODO: expand with specific code examples, the actual PostgreSQL schema, provider adapter interface, and lessons on deployment */}

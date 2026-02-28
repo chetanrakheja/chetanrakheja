@@ -1,7 +1,7 @@
 ---
 dest: ChetanRakheja_CV.pdf
 stylesheet:
-  - style.css
+  - cv-style.css
 body_class: markdown-body
 pdf_options:
   format: A4

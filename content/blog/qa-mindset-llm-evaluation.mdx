@@ -1,0 +1,47 @@
+---
+title: "Why a QA Background Makes You a Better AI Engineer"
+date: "2026-01-08"
+excerpt: "The skills that make a good QA engineer — systematic thinking, edge case obsession, and a healthy distrust of happy paths — turn out to be exactly what LLM-powered systems need most."
+tags: ["AI Engineering", "QA", "LLM Evaluation", "Testing"]
+readTime: "5 min read"
+---
+
+There's a common assumption in the AI space: the engineers who should be building LLM systems are the ones who understand transformers, RLHF, and fine-tuning pipelines. That's not wrong. But it's incomplete.
+
+After spending 6+ years in QA and the last year building production AI systems, I've come to believe that the skills most AI teams are missing aren't model skills — they're test skills.
+
+## What QA Engineers Actually Do
+
+Strip away the jargon and a QA engineer is essentially someone paid to be professionally paranoid. Their job is to:
+
+1. **Find the edge cases** the happy path misses
+2. **Define what "correct" means** in a way that can be measured
+3. **Build systems to detect regressions** before they reach users
+4. **Think adversarially** about how things can break
+
+Now look at the state of LLM evaluation in 2026. Most teams are still eyeballing outputs. Vibes-based evaluation. A few spot checks before a deploy. Sound familiar? It's where software testing was in 2005.
+
+{/* TODO: write this post — cover evals as a testing discipline, how QA instincts apply to LLM failure modes (hallucination, context drift, tool misuse), structured eval frameworks, the analogy between regression testing and LLM evals */}
+
+## The Eval Gap
+
+The teams building the most reliable AI systems right now aren't necessarily the ones with the best models. They're the ones who have figured out how to measure what they care about and build feedback loops around it.
+
+This is just testing. It's what QA engineers have been doing for decades.
+
+The difference is that testing an LLM is harder than testing deterministic software. Outputs are probabilistic. Context matters. A response that's correct 95% of the time and catastrophically wrong 5% of the time is a production risk in a way that's qualitatively different from a bug that either always fires or never does.
+
+But the underlying discipline — define success criteria, generate test cases, measure and iterate — is exactly the same.
+
+## What I Bring
+
+When I review an agentic workflow, I'm asking:
+
+- What does the agent do when the API returns a timeout?
+- Is the model correctly handling ambiguous field names in structured outputs?
+- If I replay this same task 100 times with slight variations, what's the success rate?
+- What's my rollback strategy if the model starts behaving unexpectedly in production?
+
+These aren't model questions. They're engineering questions. And they're the ones that determine whether an AI system is reliable or just impressive in demos.
+
+{/* TODO: expand with concrete examples from NAB work, specific eval frameworks used, and a practical checklist */}

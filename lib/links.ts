@@ -10,14 +10,16 @@
  */
 export const links: Record<string, string> = {
   // ── Own products ──────────────────────────────────────────────
-  aicredits:       "https://aicredits.in",
+  aicredits: "https://aicredits.in",
   masterprompting: "https://masterprompting.net",
-  payviaupi:       "https://payviaupi.vercel.app",
+  payviaupi: "https://payviaupi.vercel.app",
+  cv: "/ChetanRakheja_CV.pdf",
+  resume: "/ChetanRakheja_CV.pdf",
 
   // ── Social / profiles ────────────────────────────────────────
-  linkedin:  "https://linkedin.com/in/chetanrakheja",
-  github:    "https://github.com/chetanrakheja",
-  email:     "mailto:rakhejachetan@gmail.com",
+  linkedin: "https://linkedin.com/in/chetanrakheja",
+  github: "https://github.com/chetanrakheja",
+  email: "mailto:rakhejachetan@gmail.com",
 
   // ── Affiliate links (add your ref params here) ───────────────
   // openai:      "https://openai.com/?ref=chetanrakheja",

@@ -21,44 +21,49 @@ pdf_options:
 
 **Github:** https://github.com/chetanrakheja
 
+
 ---
 
-## Senior Software Development Engineer in Test
+## Senior SDET | AI Agent Workflows | MCP • Python • LLM Infrastructure
 
-**ISTQB Certified | 6.3+ Years | QA Automation | SDET |  Distributed Systems Testing**
+**6+ Years | Distributed Systems | API Engineering | Backend Validation | Exploring AI Engineering**
 
-I’m a Test Engineer with 6.3+ years of experience building automation frameworks, performance test suites, and backend/API validation systems for enterprise-scale applications. I specialize in Python and Java based automation, JMeter performance testing, and end-to-end quality engineering across microservices and distributed systems.
+I'm a Senior SDET with 6.6+ years of experience in distributed systems, API engineering, and backend validation for enterprise-scale applications. Over the past year I've been going deep into AI engineering — designing and integrating custom MCP-compatible tooling, building LLM-powered workflows, and shipping production AI projects independently.
 
-I work closely with developers, architects, and business teams to improve application stability, scalability, and reliability, while mentoring junior engineers and driving continuous improvement across QA processes.
+My QA background gives me something most AI engineers don't naturally have — a systematic instinct for evaluation, edge cases, and failure modes. When I look at an LLM-powered system, I think about where it breaks, how to measure it, and how to make it reliable.
 
 ---
 
 ## Technical Skills
 
+- **AI & LLM:** Prompt Engineering, LLM Integration, MCP (Model Context Protocol), Agentic Workflows, RAG Pipelines, OpenAI, Anthropic Claude, Amazon Q, Cursor  
 - **Languages & Frameworks:** Python, Java, JavaScript, TypeScript, Pytest, Selenium, Appium  
 - **Automation & Tools:** Postman, JMeter, Git, GitLab CI, Jenkins, Docker, Bash, Maven, Swagger  
-- **Testing Areas:** API Testing, Web Testing, Mobile App Testing, Backend Validation, Data-driven Testing, Performance Testing (JMeter)  
-- **Databases:** Oracle SQL, MongoDB, MySQL  
-- **Platforms & Methodologies:** Linux, Agile, Scrum, ISTQB Foundation  
-- **Cloud & Infrastructure:** Jenkins, Docker-based environments, AWS (basic exposure), CI/CD Pipelines, OpenShift (oc/kubectl), KaaS (Kubernetes-as-a-Service)  
+- **Testing Areas:** API Testing, Web Testing, Mobile App Testing, Backend Validation, Data-driven Testing, Performance Testing (JMeter), Contract Testing (Avro)  
+- **Data & Pipelines:** Apache Airflow (DAG execution), Parquet file processing, Kafka, Striim  
+- **Databases:** PostgreSQL, Oracle SQL, MongoDB, MySQL  
+- **Cloud & Infrastructure:** AWS (basic), CI/CD Pipelines, OpenShift (oc/kubectl), KaaS, Docker  
 - **Monitoring & Messaging:** Kafka, Prometheus, Grafana, Kibana 
-- **Data Streaming & Integration:** Striim (real-time data ingestion and transformation)  
 - **Project & Documentation Tools:** Jira, Confluence  
-- **Generative AI:** Prompt Engineering, LLM Integration, Amazon Q, OpenAI, Cursor
+- **Platforms & Methodologies:** Linux, Agile, Scrum, ISTQB Foundation  
 
 ---
 
 ## Professional Experience
 
 ### Iris Software Pvt. Ltd. — Gurugram, India
-Senior Software Development Engineer in Test (Client: **National Australia Bank - NAB**) | Jul 2025 – Present
+**Senior Software Development Engineer in Test** (Client: **National Australia Bank - NAB**) | Jul 2025 – Present
 
-- Built an Avro-based contract-testing framework validating microservice integrations and backward compatibility.  
-- Automated payload generation and Kafka schema/event verification, cutting integration failures.  
-- Delivered Java (Gradle) backend automation suites wired into CI for early defect detection.  
-- Implemented SQL-driven backend verification to shrink manual validation and boost accuracy.  
-- Optimized pipelines for faster, parallelized automation runs and steadier releases.  
-- Leveraged AI-assisted code review tools to understand complex codebases, identify logic gaps, and accelerate creation of high-coverage test suites.
+- Designed and integrated custom MCP-compatible tooling enabling LLM agents to perform multi-step workflows — API execution, database state verification, test case generation from technical documents, and artifact extraction — within an enterprise banking engineering environment.
+- Used agentic AI for root cause analysis — navigating complex enterprise codebases to surface bug locations and error context for developers, accelerating defect resolution.
+- Generated test cases autonomously from technical specification documents using LLM-based workflows, reducing manual test design effort significantly.
+- Built and embedded AI-generated blackbox tests directly in the development repository, enabling shift-left quality detection at commit time.
+- Validated Airflow DAG pipelines — verified Parquet file ingestion, data transformation logic, and downstream output to Kafka topics and databases.
+- Built Avro-based contract-testing framework validating microservice integrations and backward compatibility.
+- Automated Kafka schema and event verification, reducing integration failures across distributed services.
+- Delivered Java (Gradle) backend automation suites integrated into CI pipelines for early defect detection.
+- Implemented SQL-driven backend verification to reduce manual validation effort and improve data accuracy.
+- Optimized pipelines for faster, parallelized automation runs and steadier releases.
 
 ---
 
@@ -67,7 +72,7 @@ Senior Software Development Engineer in Test (Client: **National Australia Bank 
 
 - Led Pytest + Selenium automation for API, UI, and backend coverage, integrated with GitLab CI.  
 - Owned microservice test strategy, coverage, quality metrics, and defect lifecycle.  
-- Built REST API and backend validation suites using MongoDB, SQL, and JMeter for perf checks.  
+- Built REST API and backend validation suites using MongoDB, SQL, and JMeter for performance checks.  
 - Partnered with DevOps to reduce flaky tests, scale pipelines, and stabilize CI/CD.  
 - Created Python utilities for production data parsing and automated Excel reporting.  
 - Mentored junior QA engineers and rolled out API testing best practices and sprint QA metrics.
@@ -88,31 +93,44 @@ Senior Software Development Engineer in Test (Client: **National Australia Bank 
 ---
 
 ## Projects
-### Save Screenshots to a Document and a Folder  
-- Python utility that automatically captures and organizes screenshots during regression execution.  
-- Reduced manual documentation time and enabled structured reporting for distributed QA teams.
 
-### PayViaUPI.com  
-- A personal project built using Next.js to generate shareable UPI links and dynamic QR codes for simplified P2P payments.  
-- Demonstrates frontend, backend, and deployment knowledge for personal SaaS-style apps.
+### AICredits — [AICredits.in](https://AICredits.in)
+- Production LLM API gateway supporting multi-provider routing (OpenAI, Anthropic, and more) with a credit-based billing and usage tracking system.
+- Designed end-to-end architecture including provider failover, cost tracking, and analytics.
+- Built and deployed independently as a live production system.
+
+### MasterPrompting — [MasterPrompting.net](https://MasterPrompting.net)
+- Free structured prompt engineering learning platform for ChatGPT, Claude, and Gemini.
+- Curriculum-based tracks grounded in official OpenAI and Anthropic documentation.
+- Covers zero-shot, few-shot, chain-of-thought, and structured prompting techniques.
+
+### PayViaUPI
+- Personal project built using Next.js to generate shareable UPI links and dynamic QR codes for simplified P2P payments.
 
 ---
 
 ## Professional Development
-### Gen AI with Python – *In Progress* 
-- Practicing prompt engineering (zero-shot, few-shot, chain-of-thought, structured).  
-- Built a CLI assistant for natural language-driven code modifications.  
-- Integrated LLMs with Python functions for autonomous task execution and multi-modal agents.  
-- Designed RAG pipelines using QDrant and embeddings; exploring knowledge graphs for reasoning-heavy tasks.
+
+### Gen AI with Python – *In Progress*
+- Practicing prompt engineering (zero-shot, few-shot, chain-of-thought, structured).
+- Built a CLI assistant for natural language-driven code modifications.
+- Integrated LLMs with Python functions for autonomous task execution and multi-modal agents.
+- Designed RAG pipelines using Qdrant and embeddings; exploring knowledge graphs for reasoning-heavy tasks.
 
 ---
 
 ## Achievements & Certifications
-- **ISTQB Foundation Certified** (Certificate No. 0098582, July 2019)  
-- Selected for overseas UAT & production testing  
-- Recognized multiple times for automation innovation and QA excellence  
-- Mentored 4+ junior engineers across automation, API testing, and performance testing  
-- Consistently contributed to internal QA knowledge-sharing initiatives  
+
+- **ISTQB Foundation Certified** (Certificate No. 0098582, July 2019)
+- **GenAI with Python** — ChaiCode (Nov 2025)
+- **Build Real World AI Apps with Gemini and Imagen** — Google (Apr 2025)
+- **Prompt Design in Vertex AI** — Google Cloud
+- Selected for overseas UAT & production testing
+- Recognized multiple times for automation innovation and QA excellence
+- Mentored 4+ junior engineers across automation, API testing, and performance testing
+- Consistently contributed to internal QA knowledge-sharing initiatives
+- **Best Newcomer Award** — Orange Business Services (Apr 2023)
+- **Top Team Award** — Comviva (Jul 2022)
 
 ---
 

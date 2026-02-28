@@ -21,7 +21,6 @@ pdf_options:
 
 **Github:** https://github.com/chetanrakheja
 
-
 ---
 
 ## Senior SDET | AI Agent Workflows | MCP • Python • LLM Infrastructure
@@ -96,41 +95,26 @@ My QA background gives me something most AI engineers don't naturally have — a
 
 ### AICredits — [AICredits.in](https://AICredits.in)
 - Production LLM API gateway supporting multi-provider routing (OpenAI, Anthropic, and more) with a credit-based billing and usage tracking system.
-- Designed end-to-end architecture including provider failover, cost tracking, and analytics.
 - Built and deployed independently as a live production system.
 
 ### MasterPrompting — [MasterPrompting.net](https://MasterPrompting.net)
 - Free structured prompt engineering learning platform for ChatGPT, Claude, and Gemini.
 - Curriculum-based tracks grounded in official OpenAI and Anthropic documentation.
-- Covers zero-shot, few-shot, chain-of-thought, and structured prompting techniques.
 
 ### PayViaUPI
 - Personal project built using Next.js to generate shareable UPI links and dynamic QR codes for simplified P2P payments.
 
 ---
 
-## Professional Development
+## Certifications & Achievements
 
-### Gen AI with Python – *In Progress*
-- Practicing prompt engineering (zero-shot, few-shot, chain-of-thought, structured).
-- Built a CLI assistant for natural language-driven code modifications.
-- Integrated LLMs with Python functions for autonomous task execution and multi-modal agents.
-- Designed RAG pipelines using Qdrant and embeddings; exploring knowledge graphs for reasoning-heavy tasks.
-
----
-
-## Achievements & Certifications
-
-- **ISTQB Foundation Certified** (Certificate No. 0098582, July 2019)
 - **GenAI with Python** — ChaiCode (Nov 2025)
 - **Build Real World AI Apps with Gemini and Imagen** — Google (Apr 2025)
 - **Prompt Design in Vertex AI** — Google Cloud
-- Selected for overseas UAT & production testing
-- Recognized multiple times for automation innovation and QA excellence
-- Mentored 4+ junior engineers across automation, API testing, and performance testing
-- Consistently contributed to internal QA knowledge-sharing initiatives
+- **ISTQB Foundation Certified** (Certificate No. 0098582, July 2019)
 - **Best Newcomer Award** — Orange Business Services (Apr 2023)
 - **Top Team Award** — Comviva (Jul 2022)
+- Mentored 4+ junior engineers | Selected for overseas UAT & production testing
 
 ---
 

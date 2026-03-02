@@ -22,7 +22,7 @@ export const links: Record<string, string> = {
   email: "mailto:rakhejachetan@gmail.com",
 
   // ── Affiliate links (add your ref params here) ───────────────
-  // openai:      "https://openai.com/?ref=chetanrakheja",
-  // anthropic:   "https://anthropic.com/?ref=chetanrakheja",
-  // vercel:      "https://vercel.com/signup?ref=chetanrakheja",
+  vps: "https://www.hostinger.in/cart?product=vps%3Avps_kvm_2&period=24&referral_type=cart_link&REFERRALCODE=CHETAN&referral_id=019caf17-e4fc-72a3-84c7-e7e1fd2fd721",  
+  hostinger: "https://www.hostinger.in/cart?product=vps%3Avps_kvm_2&period=24&referral_type=cart_link&REFERRALCODE=CHETAN&referral_id=019caf17-e4fc-72a3-84c7-e7e1fd2fd721"
+
 };

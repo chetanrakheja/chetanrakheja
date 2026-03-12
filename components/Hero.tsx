@@ -54,9 +54,10 @@ export default function Hero() {
               variants={itemVariants}
               className="text-lg text-[var(--muted)] leading-relaxed max-w-lg"
             >
-              6+ years in distributed systems & backend engineering. Now
-              designing LLM agent workflows, MCP tooling, and production AI
-              infrastructure.
+              6.6+ years in distributed systems, API engineering, and backend
+              validation for enterprise-scale applications. Exploring AI
+              engineering through LLM agent workflows, MCP tooling, and
+              production AI infrastructure.
             </motion.p>
 
             {/* CTAs */}
@@ -65,24 +66,31 @@ export default function Hero() {
               className="flex flex-wrap gap-3"
             >
               <a
+                href="/ChetanRakheja_CV.pdf"
+                download
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-[var(--accent)] text-white text-sm font-medium rounded-md hover:bg-[var(--accent-dim)] transition-colors"
+              >
+                Download CV
+              </a>
+              <a
                 href="#projects"
                 onClick={(e) => {
                   e.preventDefault();
                   document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
                 }}
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-[var(--accent)] text-white text-sm font-medium rounded-md hover:bg-[var(--accent-dim)] transition-colors"
+                className="inline-flex items-center gap-2 px-5 py-2.5 border border-[var(--border)] text-[var(--fg)] text-sm font-medium rounded-md hover:border-[var(--accent)] hover:text-[var(--accent)] transition-all"
               >
                 View Projects
               </a>
               <a
-                href="#writing"
+                href="#experience"
                 onClick={(e) => {
                   e.preventDefault();
-                  document.getElementById("writing")?.scrollIntoView({ behavior: "smooth" });
+                  document.getElementById("experience")?.scrollIntoView({ behavior: "smooth" });
                 }}
                 className="inline-flex items-center gap-2 px-5 py-2.5 border border-[var(--border)] text-[var(--fg)] text-sm font-medium rounded-md hover:border-[var(--accent)] hover:text-[var(--accent)] transition-all"
               >
-                Read Writing
+                View Experience
               </a>
             </motion.div>
 

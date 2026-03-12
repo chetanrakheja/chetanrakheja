@@ -4,8 +4,8 @@ import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
-import BlogPreview from "@/components/BlogPreview";
 import Certifications from "@/components/Certifications";
+import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -15,11 +15,11 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <Projects />
-        <Experience />
         <Skills />
-        <BlogPreview />
+        <Experience />
+         <Projects />
         <Certifications />
+        <Education />
         <Contact />
       </main>
     </>

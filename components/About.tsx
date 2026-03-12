@@ -5,8 +5,9 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 
 const statusItems = [
-  { label: "Currently at", value: "Iris Software" },
-  { label: "Client", value: "National Australia Bank" },
+  { label: "Currently at", value: "Iris Software Pvt. Ltd." },
+  { label: "Client", value: "National Australia Bank (NAB)" },
+  { label: "Experience", value: "6.6+ years" },
   { label: "Location", value: "New Delhi, India" },
   {
     label: "Building",
@@ -42,21 +43,20 @@ export default function About() {
             {/* Text */}
             <div className="lg:col-span-3 space-y-5 text-[var(--muted)] leading-relaxed text-[0.95rem]">
               <p>
-                I&apos;m a Senior SDET with 6+ years of experience in distributed
-                systems, API engineering, and backend validation — currently at
-                Iris Software, working on behalf of National Australia Bank
-                (NAB).
+                I&apos;m a Senior SDET with 6.6+ years of experience in distributed
+                systems, API engineering, and backend validation for
+                enterprise-scale applications. I&apos;m currently at Iris Software
+                Pvt. Ltd., working on behalf of National Australia Bank (NAB).
               </p>
               <p>
-                Over the past year I&apos;ve been going deep into AI engineering —
-                designing and integrating custom MCP-compatible tooling that
-                gives LLM agents the ability to perform multi-step workflows:
-                hitting APIs, verifying database state, generating test cases
-                from technical documents, and extracting test artifacts.
+                Over the past year I&apos;ve been going deep into AI engineering:
+                designing and integrating custom MCP-compatible tooling,
+                building LLM-powered workflows, and shipping production AI
+                projects independently.
               </p>
               <p>
                 My QA background gives me something most AI engineers don&apos;t
-                naturally have — a systematic instinct for evaluation, edge
+                naturally have: a systematic instinct for evaluation, edge
                 cases, and failure modes. When I look at an LLM-powered system,
                 I think about where it breaks, how to measure it, and how to
                 make it reliable.

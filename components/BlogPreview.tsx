@@ -9,7 +9,7 @@ function ArrowIcon() {
   );
 }
 
-function PlaceholderCard({ i }: { i: number }) {
+function PlaceholderCard() {
   return (
     <div className="group rounded-xl border border-[var(--border)] bg-[var(--surface)] p-6">
       <div className="flex items-center gap-2 mb-3">
@@ -89,7 +89,7 @@ export default async function BlogPreview() {
                   </div>
                 </Link>
               ))
-            : [0, 1, 2].map((i) => <PlaceholderCard key={i} i={i} />)}
+            : [0, 1, 2].map((i) => <PlaceholderCard key={i} />)}
         </div>
 
         <Link

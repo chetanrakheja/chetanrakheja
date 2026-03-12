@@ -3,11 +3,12 @@
 import { useState, useEffect } from "react";
 
 const lines = [
-  { prefix: "> ", text: 'agent.run("verify payment API")', color: "var(--accent)" },
-  { prefix: "✓ ", text: "hitting POST /api/payments...", color: "var(--green)" },
-  { prefix: "✓ ", text: "querying db: SELECT * FROM transactions...", color: "var(--green)" },
-  { prefix: "✓ ", text: "assertion passed: status=200, db_record=found", color: "var(--green)" },
-  { prefix: "✓ ", text: "artifact saved: test_report_2024.json", color: "var(--green)" },
+  { prefix: "> ", text: 'agent.run("validate mcp_workflow")', color: "var(--accent)" },
+  { prefix: "✓ ", text: "generating test cases from technical_spec.md...", color: "var(--green)" },
+  { prefix: "✓ ", text: "hitting API and verifying SQL state...", color: "var(--green)" },
+  { prefix: "✓ ", text: "validating Airflow DAG output: Parquet -> Kafka/DB", color: "var(--green)" },
+  { prefix: "✓ ", text: "contract check passed: Avro schema backward-compatible", color: "var(--green)" },
+  { prefix: "✓ ", text: "artifact saved: mcp_agent_validation_report.json", color: "var(--green)" },
 ];
 
 const CHAR_SPEED = 28; // ms per character
@@ -78,9 +79,9 @@ export default function TerminalAnimation() {
       </div>
 
       {/* Terminal body */}
-      <div className="p-4 min-h-[140px] space-y-1.5">
+      <div className="p-4 h-[180px] md:h-[190px] space-y-1.5 overflow-auto">
         {displayedLines.map((line, i) => (
-          <div key={i} className="flex">
+          <div key={i} className="flex whitespace-nowrap">
             <span style={{ color: line.color }} className="shrink-0 select-none">
               {line.prefix}
             </span>

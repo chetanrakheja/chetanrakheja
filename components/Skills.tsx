@@ -9,35 +9,64 @@ const skillGroups = [
     label: "AI & LLM",
     skills: [
       "Prompt Engineering",
-      "MCP",
+      "LLM Integration",
+      "MCP (Model Context Protocol)",
       "Agentic Workflows",
       "RAG Pipelines",
-      "LLM Integration",
       "OpenAI",
       "Anthropic Claude",
+      "Amazon Q",
+      "Cursor",
     ],
   },
   {
-    label: "Languages",
-    skills: ["Python", "Java", "JavaScript", "TypeScript"],
+    label: "Languages & Frameworks",
+    skills: ["Python", "Java", "JavaScript", "TypeScript", "Pytest", "Selenium", "Appium"],
   },
   {
-    label: "Testing & Automation",
-    skills: ["Pytest", "Selenium", "Appium", "JMeter", "Postman", "Contract Testing (Avro)"],
+    label: "Automation & Tools",
+    skills: ["Postman", "JMeter", "Git", "GitLab CI", "Jenkins", "Docker", "Bash", "Maven", "Swagger"],
+  },
+  {
+    label: "Testing Areas",
+    skills: [
+      "API Testing",
+      "Web Testing",
+      "Mobile App Testing",
+      "Backend Validation",
+      "Data-driven Testing",
+      "Performance Testing (JMeter)",
+      "Contract Testing (Avro)",
+    ],
   },
   {
     label: "Data & Pipelines",
-    skills: ["Apache Airflow", "Kafka", "Parquet", "Striim"],
-  },
-  {
-    label: "Infrastructure",
-    skills: ["Docker", "CI/CD", "GitLab CI", "Jenkins", "OpenShift", "AWS"],
+    skills: ["Apache Airflow (DAG execution)", "Parquet file processing", "Kafka", "Striim"],
   },
   {
     label: "Databases",
-    skills: ["PostgreSQL", "MongoDB", "MySQL", "Oracle SQL"],
+    skills: ["PostgreSQL", "Oracle SQL", "MongoDB", "MySQL"],
+  },
+  {
+    label: "Cloud & Infrastructure",
+    skills: ["AWS (basic)", "CI/CD Pipelines", "OpenShift (oc/kubectl)", "KaaS", "Docker"],
+  },
+  {
+    label: "Monitoring & Messaging",
+    skills: ["Kafka", "Prometheus", "Grafana", "Kibana"],
+  },
+  {
+    label: "Project & Documentation Tools",
+    skills: ["Jira", "Confluence"],
+  },
+  {
+    label: "Platforms & Methodologies",
+    skills: ["Linux", "Agile", "Scrum", "ISTQB Foundation"],
   },
 ];
+
+
+
 
 export default function Skills() {
   const ref = useRef(null);

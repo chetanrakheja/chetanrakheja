@@ -1,12 +1,13 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import { useTheme } from "./ThemeProvider";
 
 const navLinks = [
   { label: "About", href: "#about" },
   { label: "Projects", href: "#projects" },
-  { label: "Writing", href: "#writing" },
+  { label: "Certifications", href: "#certifications" },
+  { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -33,6 +34,11 @@ export default function Navbar() {
   const [lastY, setLastY] = useState(0);
   const [hidden, setHidden] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const isHydrated = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false
+  );
 
   useEffect(() => {
     const handleScroll = () => {
@@ -48,6 +54,8 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastY]);
+
+  const resolvedTheme = isHydrated ? theme : "dark";
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     if (href.startsWith("#")) {
@@ -79,7 +87,7 @@ export default function Navbar() {
         </a>
 
         {/* Desktop links */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
             <a
               key={link.label}
@@ -116,7 +124,7 @@ export default function Navbar() {
               (e.currentTarget as HTMLElement).style.borderColor = "var(--border)";
             }}
           >
-            {theme === "dark" ? <SunIcon /> : <MoonIcon />}
+            {resolvedTheme === "dark" ? <SunIcon /> : <MoonIcon />}
           </button>
 
           <a

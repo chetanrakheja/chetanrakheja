@@ -29,8 +29,8 @@ const projects = [
   },
   {
     title: "PayViaUPI",
-    url: "https://payviaupi.com",
-    displayUrl: "PayViaUPI.com",
+    url: "https://chetanrakheja.com/payviaupi",
+    displayUrl: "PayViaUPI",
     tag: null,
     live: false,
     description:

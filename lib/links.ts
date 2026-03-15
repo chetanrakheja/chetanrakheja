@@ -16,6 +16,7 @@ export const links: Record<string, string> = {
   cv: "https://chetanrakheja.com/ChetanRakheja_CV.pdf",
   CV: "https://chetanrakheja.com/ChetanRakheja_CV.pdf",
   resume: "https://chetanrakheja.com/ChetanRakheja_CV.pdf",
+  gitcv: "https://github.com/chetanrakheja/ChetanRakheja_CV",
 
   // ── Social / profiles ────────────────────────────────────────
   linkedin: "https://linkedin.com/in/chetanrakheja",

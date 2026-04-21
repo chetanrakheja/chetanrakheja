@@ -23,7 +23,7 @@ pdf_options:
 
 ---
 
-## Senior SDET | AI Agent Workflows | MCP • Python • LLM Infrastructure
+## Senior SDET | AI Agent Workflows
 
 **6+ Years | Distributed Systems | API Engineering | Backend Validation | Exploring AI Engineering**
 

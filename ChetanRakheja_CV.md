@@ -101,9 +101,6 @@ My QA background gives me something most AI engineers don't naturally have — a
 - Free structured prompt engineering learning platform for ChatGPT, Claude, and Gemini.
 - Curriculum-based tracks grounded in official OpenAI and Anthropic documentation.
 
-### PayViaUPI
-- Personal project built using Next.js to generate shareable UPI links and dynamic QR codes for simplified P2P payments.
-
 ---
 
 ## Certifications & Achievements

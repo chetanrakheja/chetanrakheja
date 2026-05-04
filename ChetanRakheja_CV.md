@@ -12,15 +12,16 @@ pdf_options:
 
 # Chetan Rakheja
 
-<!-- rakhejachetan@gmail.com | +91 99104 54745 | New Delhi, India  | [LinkedIn](https://www.linkedin.com/in/chetanrakheja/) | [GitHub](https://github.com/chetanrakheja) -->
+rakhejachetan@gmail.com | +91 9910454745 | New Delhi, India 
+https://www.linkedin.com/in/chetanrakheja/ | https://github.com/chetanrakheja
 
-**Email:** rakhejachetan@gmail.com  
+<!--**Email:** rakhejachetan@gmail.com  
 **Phone:** +91 99104 54745  
 **Location:** New Delhi, India  
 **LinkedIn:** https://www.linkedin.com/in/chetanrakheja/
 
 **Github:** https://github.com/chetanrakheja
-
+-->
 ---
 
 ## Senior SDET | AI Agent Workflows
@@ -56,7 +57,7 @@ My QA background gives me something most AI engineers don't naturally have — a
 - Designed and integrated custom MCP-compatible tooling enabling LLM agents to perform multi-step workflows — API execution, database state verification, test case generation from technical documents, and artifact extraction — within an enterprise banking engineering environment.
 - Used agentic AI for root cause analysis — navigating complex enterprise codebases to surface bug locations and error context for developers, accelerating defect resolution.
 - Generated test cases autonomously from technical specification documents using LLM-based workflows, reducing manual test design effort significantly.
-- Built and embedded AI-generated blackbox tests directly in the development repository, enabling shift-left quality detection at commit time.
+- Built and embedded AI-generated blackbox tests directly in the dev repository, enabling shift-left quality detection at commit time.
 - Validated Airflow DAG pipelines — verified Parquet file ingestion, data transformation logic, and downstream output to Kafka topics and databases.
 - Built Avro-based contract-testing framework validating microservice integrations and backward compatibility.
 - Automated Kafka schema and event verification, reducing integration failures across distributed services.
@@ -94,8 +95,11 @@ My QA background gives me something most AI engineers don't naturally have — a
 ## Projects
 
 ### AICredits — [AICredits.in](https://AICredits.in)
-- Production LLM API gateway supporting multi-provider routing (OpenAI, Anthropic, and more) with a credit-based billing and usage tracking system.
-- Built and deployed independently as a live production system.
+- Architected and deployed a production LLM API gateway supporting 300+ models via direct multi-provider integration — OpenAI, Anthropic, DeepSeek, and OpenRouter, with Amazon Bedrock integration in progress.
+- Built OpenAI-compatible REST API layer enabling drop-in integration for existing codebases with zero client-side changes.
+- Implemented credit-based billing system with INR/UPI payments via Razorpay, real-time usage tracking, and per-model cost transparency — targeting Indian developers priced out of USD-denominated APIs.
+- Instrumented full observability stack with Loki for log aggregation, Grafana dashboards for real-time usage and billing metrics, and webhook-based alerting for critical system events.
+- Bootstrapped end-to-end: infrastructure, backend, billing, and go-to-market entirely self-owned.
 
 ### MasterPrompting — [MasterPrompting.net](https://MasterPrompting.net)
 - Free structured prompt engineering learning platform for ChatGPT, Claude, and Gemini.

@@ -96,11 +96,10 @@ My QA background gives me something most AI engineers don't naturally have — a
 ## Projects
 
 ### AICredits — [AICredits.in](https://AICredits.in)
-- Architected and deployed a production LLM API gateway supporting 300+ models via direct multi-provider integration — OpenAI, Anthropic, DeepSeek, and OpenRouter, with Amazon Bedrock integration in progress.
+- Production LLM API gateway supporting 300+ models via direct multi-provider integration — OpenAI, Anthropic, DeepSeek, and OpenRouter, with Amazon Bedrock in progress.
 - Built OpenAI-compatible REST API layer enabling drop-in integration for existing codebases with zero client-side changes.
-- Implemented credit-based billing system with INR/UPI payments via Razorpay, real-time usage tracking, and per-model cost transparency — targeting Indian developers priced out of USD-denominated APIs.
-- Instrumented full observability stack with Loki for log aggregation, Grafana dashboards for real-time usage and billing metrics, and webhook-based alerting for critical system events.
-- Bootstrapped end-to-end: infrastructure, backend, billing, and go-to-market entirely self-owned.
+- Credit-based billing with INR/UPI payments via Razorpay, and full observability via Loki, Grafana dashboards, and webhook-based alerting.
+- Independently designed, built, and launched the full stack — infrastructure, backend, billing, and go-to-market
 
 ### MasterPrompting — [MasterPrompting.net](https://MasterPrompting.net)
 - Free structured prompt engineering learning platform for ChatGPT, Claude, and Gemini.

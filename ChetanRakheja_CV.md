@@ -12,17 +12,17 @@ pdf_options:
 
 # Chetan Rakheja
 
-rakhejachetan@gmail.com | +91 9910454745 | New Delhi, India 
+<!--rakhejachetan@gmail.com | +91 9910454745 | New Delhi, India 
 
-https://www.linkedin.com/in/chetanrakheja/ | https://github.com/chetanrakheja
+https://www.linkedin.com/in/chetanrakheja/ | https://github.com/chetanrakheja -->
 
-<!--**Email:** rakhejachetan@gmail.com  
+**Email:** rakhejachetan@gmail.com  
 **Phone:** +91 99104 54745  
 **Location:** New Delhi, India  
 **LinkedIn:** https://www.linkedin.com/in/chetanrakheja/
 
 **Github:** https://github.com/chetanrakheja
--->
+
 ---
 
 ## Senior SDET | AI Agent Workflows

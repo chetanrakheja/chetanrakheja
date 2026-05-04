@@ -13,6 +13,7 @@ pdf_options:
 # Chetan Rakheja
 
 rakhejachetan@gmail.com | +91 9910454745 | New Delhi, India 
+
 https://www.linkedin.com/in/chetanrakheja/ | https://github.com/chetanrakheja
 
 <!--**Email:** rakhejachetan@gmail.com  

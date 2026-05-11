@@ -3,7 +3,9 @@
 📍 New Delhi, India  
 - 📧 [rakhejachetan@gmail.com](mailto:rakhejachetan@gmail.com)  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/chetanrakheja/)  
-- 🐙 [GitHub](https://github.com/chetanrakheja)  
+- 🐙 [GitHub](https://github.com/chetanrakheja)
+- 💳 [AICredits.in](https://aicredits.in/)
+- 📖 [MasterPrompting.net](https://masterprompting.net/) 
 - 🌐 [PayViaUPI.com](https://payviaupi.vercel.app/)  
 - 📑 [My Latest CV](https://chetanrakheja.com/gitcv)
 

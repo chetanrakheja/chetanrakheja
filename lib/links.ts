@@ -26,6 +26,14 @@ export const links: Record<string, string> = {
   // ── Affiliate links (add your ref params here) ───────────────
   vps: "https://www.hostinger.in/cart?product=vps%3Avps_kvm_2&period=24&referral_type=cart_link&REFERRALCODE=CHETAN&referral_id=019caf17-e4fc-72a3-84c7-e7e1fd2fd721",  
   hostinger: "https://www.hostinger.in/cart?product=vps%3Avps_kvm_2&period=24&referral_type=cart_link&REFERRALCODE=CHETAN&referral_id=019caf17-e4fc-72a3-84c7-e7e1fd2fd721",
-  vobiz: "https://console.vobiz.ai/auth/signup?ref=4657A75B"
+  vobiz: "https://console.vobiz.ai/auth/signup?ref=4657A75B",
+  cashfree: "https://merchant.cashfree.com/merchants/signup?referrer=partner&refCode=CFPCN329170",
+  razorpay: "https://rzp.io/i/9XIlto8",
+  zerodha: "https://zerodha.com/open-account?c=NB7220",
+  cred: "https://app.cred.club/spQx/bd8xn6nh",
+  stablemoney: "https://stablemoney.onelink.me/rkWL/s89itxp3",
+  wintwealth: "https://www.wintwealth.com/bonds/referral/invite?referralCode=AC70A3",
+  scapia: "https://apply.scapia.cards/landing_page?referral_code=a3ufbc"
+  
 
 };

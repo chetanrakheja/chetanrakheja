@@ -20,7 +20,7 @@ New Delhi / NCR, India · +91 99104 54745 · rakhejachetan@gmail.com
 
 ## Summary
 
-Software engineer with 7+ years in Python and Java automation, REST APIs and backend validation across enterprise banking and telecom systems, now building Agentic AI and LLM-powered services.
+Software engineer with 7+ years building Python automation platforms, REST API tooling and CI/CD pipelines for enterprise banking and telecom systems, now focused on Agentic AI and LLM-powered services.
 
 Built AICredits.in, a multi-provider LLM gateway (integrating the Claude API, OpenAI and more) with 4,500+ users, by directing AI coding agents. I made it dependable with 1,400+ automated tests, a CI/CD pipeline, Grafana cost and usage observability, and billing-leak alerts. At Iris Software (NAB), I prototyped MCP-compatible agent tooling that executes multi-step API workflows and verifies database state.
 
@@ -29,11 +29,10 @@ Built AICredits.in, a multi-provider LLM gateway (integrating the Claude API, Op
 ## Technical Skills
 
 - **AI & LLM:** Agentic AI, MCP (server and client tooling), LLM evaluation (Ragas, DeepEval; coursework), LLM API integration (Claude, OpenAI, Gemini, Bedrock: chat, streaming, tool calling, embeddings), prompt engineering, multi-provider routing, LLM cost and usage governance, RAG (conceptual), Claude Code / Codex workflows
-- **Backend & Languages:** Python (automation, REST services), Java, SQL, REST API design (OpenAPI), microservices
-- **Built with AI coding agents:** Go, TypeScript, React / Next.js
-- **Data & Messaging:** Apache Kafka, Avro schemas / contract testing, Apache Airflow, Parquet
+- **Languages & Frameworks:** Python (automation, REST services), Java, TypeScript, JavaScript, React / Next.js, SQL, REST API design (OpenAPI), microservices
+- **Data & Messaging:** Apache Kafka, Avro schemas / contract testing, Apache Airflow, Parquet, Pandas, Jupyter notebooks
 - **Databases:** PostgreSQL (incl. pgvector), Redis, MongoDB, MySQL, Oracle
-- **CI/CD & Infrastructure:** CI/CD pipelines (GitHub Actions, GitLab CI, Jenkins), Docker, Docker Compose, Kubernetes / OpenShift (kubectl), Linux, Traefik
+- **CI/CD & Cloud:** CI/CD pipelines (GitHub Actions, GitLab CI, Jenkins), Docker, Docker Compose, Kubernetes / OpenShift (kubectl), Linux, Traefik, AWS; working knowledge of GCP and Azure
 - **Observability:** Prometheus, Grafana, Loki, Alertmanager
 - **Test Automation & Reliability:** test automation frameworks, regression and integration test suites (1,400+ automated tests, Pytest), API contract testing, distributed-system validation, performance testing (JMeter), root-cause analysis
 
@@ -47,11 +46,9 @@ Built by directing AI coding agents (Claude Code, Codex); I own the requirements
 - **Making AI-written code trustworthy:** 1,400+ automated tests, a **GitHub Actions CI/CD pipeline** (Go tests, frontend and admin lint/typecheck/build, and an integration job against Postgres and Redis on every push and PR to `main`), a regression test for every production bug (including a replay of the real failing request), and manual, SHA-pinned deploys with a pre-deploy billing smoke test and health-check gating.
 - **Billing correctness & monitoring:** automated alerts for billing discrepancies (requests completed but billed at zero, delivered-but-unbilled responses, zero-cost fallbacks); found and fixed two real billing defects (a double-deduction and token overbilling) in production.
 - **Usage observability (Grafana):** 14 dashboards, ~50 custom Prometheus metrics and 22 alert rules covering requests, tokens, latency, errors, cost and margin by provider, model and user, with a per-request record and credit ledger so any charge can be traced and reconciled.
-- **Processes for agents to work well:** a project permission policy, reusable skills, and a read-only observability CLI so agents can triage production issues safely; I approve and deploy every change.
-- **Cost and usage control for cloud LLM APIs:** fallback routing and retries across providers; per-key and per-user spend budgets, rate limits and model allow-lists to cap runaway usage; correct cached-token pricing.
-- **Reliability & security:** health and readiness checks, graceful shutdown that flushes in-flight billing batches, daily database backups with a streaming hot standby, scoped API and management keys, and production config validation with secret scrubbing in logs.
-
-Also built MasterPrompting.net, a free prompt-engineering learning platform grounded in official OpenAI and Anthropic documentation.
+- **Agent guardrails:** a permission policy, reusable skills and a read-only observability CLI for safe production triage; I review and approve every change before deploy.
+- **Cost and usage control:** cross-provider fallback and retries, per-key and per-user spend budgets, rate limits and model allow-lists.
+- **Reliability & security:** health checks, graceful shutdown that flushes in-flight billing batches, daily backups with a hot standby, scoped API keys, and secret scrubbing in logs.
 
 ---
 
@@ -64,22 +61,23 @@ Also built MasterPrompting.net, a free prompt-engineering learning platform grou
 - Prototyped LLM workflows that analyse enterprise codebases to surface likely fault locations and error context for developers.
 - Built an **Avro-based contract-testing framework** validating microservice integrations and backward compatibility.
 - Automated Kafka schema and event verification across distributed services.
-- Validated Apache Airflow / Parquet pipelines delivering to Kafka topics and databases; delivered Java (Gradle) and SQL-driven backend verification integrated into CI.
+- Validated Apache Airflow / Parquet pipelines delivering to Kafka topics and databases, and tested data helper functions with Pandas and Jupyter notebooks; delivered Java (Gradle) and SQL-driven backend verification integrated into CI.
 
 ### Orange Business Services — Gurugram, India
 **System Software Engineer** | Sep 2022 – Jul 2025
 
-- Built and owned Python automation platforms (Pytest, Requests, Selenium) covering REST API, UI and backend validation for distributed microservices, integrated into GitLab CI/CD pipelines.
+- Built and owned Python automation platforms (Pytest, Requests, Selenium) for REST API, UI and backend validation of distributed microservices, integrated into GitLab CI/CD pipelines.
 - Designed REST API and backend validation against MongoDB and SQL; ran JMeter performance suites that surfaced API bottlenecks and thread contention.
 - Dockerized the platform for portable execution; worked with DevOps to stabilise CI/CD and reduce flaky tests.
 - Integrated Prometheus APIs and monitored service health in Grafana; deployed and operated services on OpenShift (cron, log analysis, troubleshooting).
-- Automated daily production verification (30+ minutes saved per day); mentored 4+ junior engineers.
+- Automated daily production verification (30+ minutes saved per day); built Python utilities for production data parsing and automated reporting.
+- Mentored 4+ junior engineers; rolled out API testing best practices across the team.
 
 ### Comviva Technologies (Tech Mahindra) — Gurugram, India
 **Software Development Engineer in Test** | Sep 2019 – Sep 2022
 
 - Automated 195+ Appium test cases, cutting manual regression time by 50%+; built reusable Java modules and JMeter API load tests.
-- Resolved 490+ defects across releases of financial mobile applications; Oracle SQL backend validation.
+- Identified, triaged and verified 490+ defects across releases of financial mobile applications; Oracle SQL backend validation.
 - Selected for on-site delivery on the Qatar National Bank (QNB) engagement.
 
 ---

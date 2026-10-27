@@ -39,9 +39,9 @@ Built AICredits.in, a multi-provider LLM gateway (integrating the Claude API, Op
 
 ---
 
-## Side Projects
+## Projects
 
-### AICredits.in — LLM API Gateway (Side Project) · Jan 2026 – Present
+### AICredits.in — LLM API Gateway · Jan 2026 – Present
 Built by directing AI coding agents (Claude Code, Codex); I own the requirements, review, testing, operations and cost. Maintained part-time, a few hours a week.
 - Delivered a working multi-provider LLM gateway exposing OpenAI-compatible (Chat Completions, Responses, embeddings, image, audio) and Anthropic Messages APIs, translating requests across provider formats with streaming (SSE) and tool/function calling support, plus a production MCP server for AI clients, user dashboard and admin console; built through AI-agent-driven development on a Go backend with a Next.js/React front end.
 - **Making AI-written code trustworthy:** 1,400+ automated tests, a **GitHub Actions CI/CD pipeline** (Go tests, frontend and admin lint/typecheck/build, and an integration job against Postgres and Redis on every push and PR to `main`), a regression test for every production bug (including a replay of the real failing request), and manual, SHA-pinned deploys with a pre-deploy billing smoke test and health-check gating.

@@ -49,6 +49,7 @@ Built by directing AI coding agents (Claude Code, Codex); I own the requirements
 - **Usage observability (Grafana):** 14 dashboards, ~50 custom Prometheus metrics and 22 alert rules covering requests, tokens, latency, errors, cost and margin by provider, model and user, with a per-request record and credit ledger so any charge can be traced and reconciled.
 - **Processes for agents to work well:** a project permission policy, reusable skills, and a read-only observability CLI so agents can triage production issues safely; I approve and deploy every change.
 - **Cost and usage control for cloud LLM APIs:** fallback routing and retries across providers; per-key and per-user spend budgets, rate limits and model allow-lists to cap runaway usage; correct cached-token pricing.
+- **Reliability & security:** health and readiness checks, graceful shutdown that flushes in-flight billing batches, daily database backups with a streaming hot standby, scoped API and management keys, and production config validation with secret scrubbing in logs.
 
 Also built MasterPrompting.net, a free prompt-engineering learning platform grounded in official OpenAI and Anthropic documentation.
 

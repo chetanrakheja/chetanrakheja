@@ -16,19 +16,19 @@ New Delhi / NCR, India · +91 99104 54745 · rakhejachetan@gmail.com
 
 ---
 
-## Software Engineer | Python · REST APIs · Automation | Agentic AI & LLM Applications | CI/CD
+## Software Engineer | Python · Automation · Agentic AI
 
 ## Summary
 
-Software engineer with 7+ years of experience in Python and Java automation, REST APIs and backend validation across enterprise banking and telecom systems (distributed-system validation, automated CI/CD pipelines), now focused on building and operating Agentic AI and LLM-powered services.
+Software engineer with 7+ years in Python and Java automation, REST APIs and backend validation across enterprise banking and telecom systems, now building Agentic AI and LLM-powered services.
 
-Built AICredits.in to understand how LLM APIs work end to end and to give friends and family easy access to them. It grew organically to 4,500+ users. I built it by directing AI coding agents and made it dependable through test automation, a CI/CD pipeline, Grafana-based usage and cost observability, billing-leak alerts and an audit trail. The work centres on using cloud LLM APIs well: tracking every token and rupee, controlling spend per user and key, and routing across providers. Earlier, at Iris Software (NAB), prototyped Agentic AI tooling (MCP-compatible) that let LLM agents execute multi-step API workflows and verify database state. Completed Anthropic's Building with the Claude API and Claude Code in Action courses.
+Built AICredits.in, a multi-provider LLM gateway (integrating the Claude API, OpenAI and more) with 4,500+ users, by directing AI coding agents. I made it dependable with 1,400+ automated tests, a CI/CD pipeline, Grafana cost and usage observability, and billing-leak alerts. At Iris Software (NAB), I prototyped MCP-compatible agent tooling that executes multi-step API workflows and verifies database state.
 
 ---
 
 ## Technical Skills
 
-- **AI & LLM:** Agentic AI, AI agents, LLM evaluation (Ragas, DeepEval; coursework), LLM API integration (Anthropic Claude, OpenAI, Gemini, Bedrock), agentic workflows, Model Context Protocol (MCP server and client tooling), tool/function calling, prompt engineering, structured output, embeddings and vector search (conceptual), RAG (conceptual; building a hands-on prototype), multi-provider routing, LLM cost optimization, usage governance (per-key spend budgets, rate limits, model allow-lists), token/cost/latency tracking and usage observability (Grafana, Prometheus), LLM-assisted code analysis, Claude Code / Codex workflows
+- **AI & LLM:** Agentic AI, MCP (server and client tooling), LLM evaluation (Ragas, DeepEval; coursework), LLM API integration (Claude, OpenAI, Gemini, Bedrock: chat, streaming, tool calling, embeddings), prompt engineering, multi-provider routing, LLM cost and usage governance, RAG (conceptual), Claude Code / Codex workflows
 - **Backend & Languages:** Python (automation, REST services), Java, SQL, REST API design (OpenAPI), microservices
 - **Built with AI coding agents:** Go, TypeScript, React / Next.js
 - **Data & Messaging:** Apache Kafka, Avro schemas / contract testing, Apache Airflow, Parquet
@@ -43,12 +43,12 @@ Built AICredits.in to understand how LLM APIs work end to end and to give friend
 
 ### AICredits.in — LLM API Gateway (Side Project) · Jan 2026 – Present
 Built by directing AI coding agents (Claude Code, Codex); I own the requirements, review, testing, operations and cost. Maintained part-time, a few hours a week.
-- Delivered a working multi-provider LLM gateway (OpenAI- and Anthropic-compatible APIs, a production MCP server for AI clients, user dashboard and admin console) through AI-agent-driven development; the generated stack is a Go backend with a Next.js/React front end.
+- Delivered a working multi-provider LLM gateway exposing OpenAI-compatible (Chat Completions, Responses, embeddings, image, audio) and Anthropic Messages APIs, translating requests across provider formats with streaming (SSE) and tool/function calling support, plus a production MCP server for AI clients, user dashboard and admin console; built through AI-agent-driven development on a Go backend with a Next.js/React front end.
 - **Making AI-written code trustworthy:** 1,400+ automated tests, a **GitHub Actions CI/CD pipeline** (Go tests, frontend and admin lint/typecheck/build, and an integration job against Postgres and Redis on every push and PR to `main`), a regression test for every production bug (including a replay of the real failing request), and manual, SHA-pinned deploys with a pre-deploy billing smoke test and health-check gating.
-- **Protecting the business:** automated alerts for revenue leakage (requests completed but billed at zero, delivered-but-unbilled responses, zero-cost fallbacks). Found and fixed two real billing defects (a double-deduction and token overbilling) in production.
-- **Usage observability (Grafana):** 14 Grafana dashboards and ~50 custom Prometheus metrics covering requests, tokens, latency, errors, cost and margin by provider, model and user, with 22 alert rules to Discord and log aggregation. A per-request record of tokens, cost, latency and outcome plus a credit ledger means any charge can be traced and reconciled.
+- **Billing correctness & monitoring:** automated alerts for revenue leakage (zero-billed completions, delivered-but-unbilled responses, zero-cost fallbacks); found and fixed two real billing defects (a double-deduction and token overbilling) in production.
+- **Usage observability (Grafana):** 14 dashboards, ~50 custom Prometheus metrics and 22 alert rules covering requests, tokens, latency, errors, cost and margin by provider, model and user, with a per-request record and credit ledger so any charge can be traced and reconciled.
 - **Processes for agents to work well:** a project permission policy, reusable skills, and a read-only observability CLI so agents can triage production issues safely; I approve and deploy every change.
-- **Cost and usage control for cloud LLM APIs:** per-request cost and margin tracked by provider and model; fallback routing and retries across providers for availability and spend; per-key and per-user spend budgets, rate limits, concurrency limits and model allow-lists to cap runaway usage; correct handling of cached-token pricing after finding and fixing an overbilling defect.
+- **Cost and usage control for cloud LLM APIs:** fallback routing and retries across providers; per-key and per-user spend budgets, rate limits and model allow-lists to cap runaway usage; correct cached-token pricing.
 
 Also built MasterPrompting.net, a free prompt-engineering learning platform grounded in official OpenAI and Anthropic documentation.
 
